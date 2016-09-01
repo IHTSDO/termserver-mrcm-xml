@@ -622,4 +622,270 @@
 			</predicate>
 		</predicate>
 	</constraints>
+	
+	<constraints xsi:type="mrcm:AttributeConstraint" uuid="65326e7f-6de5-41c1-9e58-f2759e45e430" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org">
+		<domain xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="352331bd-4b03-46fa-9509-8c9fdb2f5c1c" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="363787002" inclusionType="DESCENDANT"/><!-- Observable entity -->
+		<predicate xsi:type="mrcm:CardinalityPredicate" uuid="437229e5-3ea4-44d1-889f-b2fb19bb606c" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" maxCardinality="-1">
+			<predicate xsi:type="mrcm:RelationshipPredicate" uuid="bbcacbdc-619e-4ad4-aa95-1b636623fa90" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org">
+				<attribute xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="e6dfc567-36a7-4e66-a2bc-180b58fba58e" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="704318007"/><!-- Property Type -->
+				<range xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="a2af0e65-f60a-450c-86b2-5dd13ae109dd" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="118598001" inclusionType="SELF_OR_DESCENDANT"/><!-- Measurement property -->
+			</predicate>
+		</predicate>
+	</constraints>
+
+	<constraints xsi:type="mrcm:AttributeConstraint" uuid="fe822df9-3185-4e55-9599-4c6bdfa26aaa" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org">
+		<domain xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="b3556253-4888-4854-8ef6-02bf94bfa7cc" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="363787002" inclusionType="DESCENDANT"/><!-- Observable entity -->
+		<predicate xsi:type="mrcm:CardinalityPredicate" uuid="d7e0ab98-a533-4474-9259-3d350a37beb8" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" maxCardinality="-1">
+			<predicate xsi:type="mrcm:RelationshipPredicate" uuid="c5465b9d-a06f-4006-a086-31ad336cd234" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org">
+				<attribute xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="ecf525f8-a4ba-4fb5-aed1-92b7e944cd9b" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="704319004"/><!-- Inheres in -->
+				<range xsi:type="mrcm:CompositeConceptSetDefinition" uuid="9d3b9b5b-ff76-4e4a-9afb-cdced20d8aaf" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org">
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="2758265c-4de4-480c-a039-0798823c79be" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="123037004" inclusionType="SELF_OR_DESCENDANT"/><!-- Body structure -->
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="07b49c80-a2c9-49da-8968-3c6a63a65e7d" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="410607006" inclusionType="SELF_OR_DESCENDANT"/><!-- Organism -->
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="8d0c663e-d77c-49b2-aaac-fa10ac01755a" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="105590001" inclusionType="SELF_OR_DESCENDANT"/><!-- Substance -->
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="062c454c-047d-4e64-a7d6-cb5c057a7009" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="123038009" inclusionType="SELF_OR_DESCENDANT"/><!-- Specimen -->
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="77b941e0-f5cc-4af6-83bc-af11c045ee1e" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="260787004" inclusionType="SELF_OR_DESCENDANT"/><!-- Physical object -->
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="e1157795-e5ae-4b10-b72e-2096cd347431" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="373873005" inclusionType="SELF_OR_DESCENDANT"/><!-- Pharmaceutical / biologic product -->
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="12d70f95-1ab3-47c1-a73e-6d010dacd2e9" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="419891008" inclusionType="SELF_OR_DESCENDANT"/><!-- Record artifact -->
+				</range>
+			</predicate>
+		</predicate>
+	</constraints>
+
+	<constraints xsi:type="mrcm:AttributeConstraint" uuid="0bcb3448-8579-454f-96b6-d3c9c6f03791" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org">
+		<domain xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="e61a1ad5-06b7-4486-9c03-c4dbbda2a2e8" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="363787002" inclusionType="DESCENDANT"/><!-- Observable entity -->
+		<predicate xsi:type="mrcm:CardinalityPredicate" uuid="04904471-415e-4320-83f5-a1bb18eb3964" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" maxCardinality="-1">
+			<predicate xsi:type="mrcm:RelationshipPredicate" uuid="6ea6b7f1-5a48-4cd6-a514-edb294ec9743" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org">
+				<attribute xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="ad3edb89-1f50-4dad-bda6-6f4c30bdc896" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="718497002"/><!-- Inherent location -->
+				<range xsi:type="mrcm:CompositeConceptSetDefinition" uuid="00b7a098-14eb-45f7-a14b-4b1e14a1bb43" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org">
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="131169ae-9104-4377-aa4b-4e504d3e8676" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="123037004" inclusionType="SELF_OR_DESCENDANT"/><!-- Body structure -->
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="1497404f-c0ac-432c-99a3-b56640472f98" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="410607006" inclusionType="SELF_OR_DESCENDANT"/><!-- Organism -->
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="3bb8ed41-3982-48e1-9f81-ca9d138195b1" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="105590001" inclusionType="SELF_OR_DESCENDANT"/><!-- Substance -->
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="3b8c135c-8578-4d0e-abf6-99d205736e25" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="123038009" inclusionType="SELF_OR_DESCENDANT"/><!-- Specimen -->
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="6eb6b597-bd5a-4915-a8b1-f53bdfcd2f70" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="260787004" inclusionType="SELF_OR_DESCENDANT"/><!-- Physical object -->
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="8666b61d-b7fa-499e-8673-9c22d3075ac2" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="373873005" inclusionType="SELF_OR_DESCENDANT"/><!-- Pharmaceutical / biologic product -->
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="1e64dd22-14fc-458c-99c9-13bd9d3efd25" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="419891008" inclusionType="SELF_OR_DESCENDANT"/><!-- Record artifact -->
+				</range>
+			</predicate>
+		</predicate>
+	</constraints>
+
+	<constraints xsi:type="mrcm:AttributeConstraint" uuid="8ed675dc-7c57-4c0a-991e-81104fc71d0a" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org">
+		<domain xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="b9e77d7c-65d8-419b-a07e-76c125c329e4" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="363787002" inclusionType="DESCENDANT"/><!-- Observable entity -->
+		<predicate xsi:type="mrcm:CardinalityPredicate" uuid="280626d3-b8e4-41cf-8c82-263410c03087" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" maxCardinality="-1">
+			<predicate xsi:type="mrcm:RelationshipPredicate" uuid="9e9e4063-9563-4c5a-aa7f-7576c150f561" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org">
+				<attribute xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="9403211d-2016-4bdf-b623-aa068f1ee2bc" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="704321009"/><!-- Characterizes -->
+				<range xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="6b3b2411-ea3a-451b-b9d3-436e6eb8026d" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="719982003" inclusionType="SELF_OR_DESCENDANT"/><!-- Process -->
+			</predicate>
+		</predicate>
+	</constraints>
+
+	<constraints xsi:type="mrcm:AttributeConstraint" uuid="8c37aef6-3e1e-4e1d-982a-f483ca9ed8ba" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org">
+		<domain xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="94fedb0d-08c8-47c3-89e6-252fba5af311" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="363787002" inclusionType="DESCENDANT"/><!-- Observable entity -->
+		<predicate xsi:type="mrcm:CardinalityPredicate" uuid="c05136e7-04dc-4baf-a9b4-b6151caf5212" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" maxCardinality="-1">
+			<predicate xsi:type="mrcm:RelationshipPredicate" uuid="bf31ec22-b9b2-4d6c-a435-254ec26fcb5c" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org">
+				<attribute xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="aaec7e41-d320-4d82-a074-41e6d792f951" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="704322002"/><!-- Process agent -->
+				<range xsi:type="mrcm:CompositeConceptSetDefinition" uuid="938ae634-1250-4bd8-9434-180b03d954f3" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org">
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="bde08807-4b57-48f1-b15e-0f8d101cec12" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="123037004" inclusionType="SELF_OR_DESCENDANT"/><!-- Body structure -->
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="54533afa-2313-4654-b6c5-af0aa7fa8c31" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="410607006" inclusionType="SELF_OR_DESCENDANT"/><!-- Organism -->
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="5c361b65-6a30-4c7a-ae60-62128a11c1eb" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="260787004" inclusionType="SELF_OR_DESCENDANT"/><!-- Physical object -->
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="e69149af-a81d-4848-be5e-ec90b58259e4" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="373873005" inclusionType="SELF_OR_DESCENDANT"/><!-- Pharmaceutical / biologic product -->
+				</range>
+			</predicate>
+		</predicate>
+	</constraints>
+
+	<constraints xsi:type="mrcm:AttributeConstraint" uuid="57cb1e2c-a793-409f-94c3-1f84601a172e" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org">
+		<domain xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="2b9a16af-c06e-44a7-a580-3e7d8992945b" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="363787002" inclusionType="DESCENDANT"/><!-- Observable entity -->
+		<predicate xsi:type="mrcm:CardinalityPredicate" uuid="fb5d49a8-22fb-4fa8-b0d9-826c68315467" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" maxCardinality="-1">
+			<predicate xsi:type="mrcm:RelationshipPredicate" uuid="8d571d1c-cce5-4e4c-a80d-f1b06e0247ad" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org">
+				<attribute xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="ab8128f7-edcf-40a4-aa7f-386dd04479de" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="704323007"/><!-- Process duration -->
+				<range xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="22c45f63-a389-4d77-bc5d-5641cfda56d4" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="7389001" inclusionType="SELF_OR_DESCENDANT"/><!-- Time frame -->
+			</predicate>
+		</predicate>
+	</constraints>
+
+	<constraints xsi:type="mrcm:AttributeConstraint" uuid="ae071cb1-1a10-4ddc-9cd2-7f0736368e4c" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org">
+		<domain xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="04710b8c-7984-401c-a87e-4874d8567414" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="363787002" inclusionType="DESCENDANT"/><!-- Observable entity -->
+		<predicate xsi:type="mrcm:CardinalityPredicate" uuid="52d18dfd-f26b-42a8-8074-cc84a03ffd9c" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" maxCardinality="-1">
+			<predicate xsi:type="mrcm:RelationshipPredicate" uuid="963e835f-7523-49f9-8f8f-bebf21f24d87" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org">
+				<attribute xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="9621a22d-91b0-4df1-85fa-ce3badd60d65" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="704324001"/><!-- Process output -->
+				<range xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="fe3338f4-7a82-40b5-b437-279e9174cba2" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="105590001" inclusionType="SELF_OR_DESCENDANT"/><!-- Substance -->
+			</predicate>
+		</predicate>
+	</constraints>
+
+	<constraints xsi:type="mrcm:AttributeConstraint" uuid="0624721e-af05-4dd9-8d8f-6fdc1806cee3" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org">
+		<domain xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="998accca-d633-4570-beb0-be456902e65b" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="363787002" inclusionType="DESCENDANT"/><!-- Observable entity -->
+		<predicate xsi:type="mrcm:CardinalityPredicate" uuid="779b9c1d-b8b6-439b-ba67-42f140badd41" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" maxCardinality="-1">
+			<predicate xsi:type="mrcm:RelationshipPredicate" uuid="4a050c25-95e8-4723-bfa4-545afb4554c0" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org">
+				<attribute xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="4a2c699f-5abe-4104-99f7-4cac5636c64e" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="704320005"/><!-- Towards -->
+				<range xsi:type="mrcm:CompositeConceptSetDefinition" uuid="13461184-ccc8-4dbf-afd6-396008ff6c50" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org">
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="e766a247-78cb-4753-abc8-ba03e3692281" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="123037004" inclusionType="SELF_OR_DESCENDANT"/><!-- Body structure -->
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="0bb144e0-e8a1-4009-8cc2-3738bc6896c1" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="410607006" inclusionType="SELF_OR_DESCENDANT"/><!-- Organism -->
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="b8a8759f-de96-40ab-9597-865628a90b3f" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="105590001" inclusionType="SELF_OR_DESCENDANT"/><!-- Substance -->
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="bc078d21-4965-4e93-94dd-f1be52e4fd58" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="123038009" inclusionType="SELF_OR_DESCENDANT"/><!-- Specimen -->
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="24a9e5fd-93d4-4ca6-b037-33f9e87782cd" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="260787004" inclusionType="SELF_OR_DESCENDANT"/><!-- Physical object -->
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="8378cd7d-e071-4aab-abc3-85c7abbeaa05" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="373873005" inclusionType="SELF_OR_DESCENDANT"/><!-- Pharmaceutical / biologic product -->
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="5dcc3243-de7b-425e-9ebc-3657097f81ef" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="419891008" inclusionType="SELF_OR_DESCENDANT"/><!-- Record artifact -->
+				</range>
+			</predicate>
+		</predicate>
+	</constraints>
+
+	<constraints xsi:type="mrcm:AttributeConstraint" uuid="6ad4b31b-d45f-418e-87f1-1d7130dec695" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org">
+		<domain xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="7930f87f-3911-43b9-9817-cc0c0f635945" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="363787002" inclusionType="DESCENDANT"/><!-- Observable entity -->
+		<predicate xsi:type="mrcm:CardinalityPredicate" uuid="4db751fc-35dc-4ed8-b63c-050f807d1361" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" maxCardinality="-1">
+			<predicate xsi:type="mrcm:RelationshipPredicate" uuid="5833f692-283d-4ca2-9e4f-bc57574396d4" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org">
+				<attribute xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="8429d57d-fbde-437d-95cc-c74eaaba048c" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="704325000"/><!-- Relative to -->
+				<range xsi:type="mrcm:CompositeConceptSetDefinition" uuid="040bad21-2027-45cf-beb7-a517ee4ebb16" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org">
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="f688e8cf-2783-4046-888b-ef246e838ea9" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="123037004" inclusionType="SELF_OR_DESCENDANT"/><!-- Body structure -->
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="fd1607ec-0c5c-4d58-ab9c-43e847e83610" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="410607006" inclusionType="SELF_OR_DESCENDANT"/><!-- Organism -->
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="311302d9-26c7-4eed-b4bf-fcf39c62c798" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="105590001" inclusionType="SELF_OR_DESCENDANT"/><!-- Substance -->
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="1a996e7c-e168-4f51-8041-330bf4103cfa" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="123038009" inclusionType="SELF_OR_DESCENDANT"/><!-- Specimen -->
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="2c72d188-f757-4255-a6ca-aab883bfdc28" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="260787004" inclusionType="SELF_OR_DESCENDANT"/><!-- Physical object -->
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="ac10d345-bf91-4bd8-a720-880bc70343c6" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="373873005" inclusionType="SELF_OR_DESCENDANT"/><!-- Pharmaceutical / biologic product -->
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="2b5e3e53-5c1d-410c-a10f-af3ae2025b1c" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="419891008" inclusionType="SELF_OR_DESCENDANT"/><!-- Record artifact -->
+				</range>
+			</predicate>
+		</predicate>
+	</constraints>
+
+	<constraints xsi:type="mrcm:AttributeConstraint" uuid="fb94cc8e-b6b8-469b-bded-9b1fcc8e2efa" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org">
+		<domain xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="dd905306-5b9b-4e49-8845-d7909567491e" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="363787002" inclusionType="DESCENDANT"/><!-- Observable entity -->
+		<predicate xsi:type="mrcm:CardinalityPredicate" uuid="bfee4cb8-6b36-453f-8950-8e349676457e" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" maxCardinality="-1">
+			<predicate xsi:type="mrcm:RelationshipPredicate" uuid="0aa3c8d8-338e-4243-9b6e-e3d234168ca0" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org">
+				<attribute xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="e9b20917-d669-42a9-8a2f-6b299ec43cc6" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="719715003"/><!-- Relative to part of -->
+				<range xsi:type="mrcm:CompositeConceptSetDefinition" uuid="77eb6cc4-898c-40b4-be77-5d0e225d71a9" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org">
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="538f0186-51fd-4a65-acbe-7f72229b2619" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="123037004" inclusionType="SELF_OR_DESCENDANT"/><!-- Body structure -->
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="bbfaa212-5968-4d28-bab8-d1ce28593542" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="410607006" inclusionType="SELF_OR_DESCENDANT"/><!-- Organism -->
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="37238992-0d58-4988-b812-d74813696a09" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="105590001" inclusionType="SELF_OR_DESCENDANT"/><!-- Substance -->
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="920ccff9-155b-4255-b8fa-e0b1687056f0" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="123038009" inclusionType="SELF_OR_DESCENDANT"/><!-- Specimen -->
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="fb392f36-c446-4cf7-847f-3b0191300cac" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="260787004" inclusionType="SELF_OR_DESCENDANT"/><!-- Physical object -->
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="25de2a7c-479c-4393-a225-4607853a1aca" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="373873005" inclusionType="SELF_OR_DESCENDANT"/><!-- Pharmaceutical / biologic product -->
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="1e451301-47eb-4817-972b-62566444e9d8" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="419891008" inclusionType="SELF_OR_DESCENDANT"/><!-- Record artifact -->
+				</range>
+			</predicate>
+		</predicate>
+	</constraints>
+
+	<constraints xsi:type="mrcm:AttributeConstraint" uuid="6fa790e3-8192-471e-a2aa-7eefecb7889e" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org">
+		<domain xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="f474494d-e9ba-4341-8c85-5ee61f8c2c93" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="363787002" inclusionType="DESCENDANT"/><!-- Observable entity -->
+		<predicate xsi:type="mrcm:CardinalityPredicate" uuid="3c91d2f6-bfce-4a1a-9129-2051e055b847" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" maxCardinality="-1">
+			<predicate xsi:type="mrcm:RelationshipPredicate" uuid="53aa5eeb-1d6b-46d6-88f6-5ee5efdbff0a" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org">
+				<attribute xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="e22c643c-67e3-4b30-8073-996cfec42acf" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="704326004"/><!-- Precondition -->
+				<range xsi:type="mrcm:CompositeConceptSetDefinition" uuid="4c7246d3-b378-4e0c-94b4-75bb65790325" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org">
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="56e5dad3-be3c-49b9-b933-90210318fc40" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="404684003" inclusionType="SELF_OR_DESCENDANT"/><!-- Clinical finding -->
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="ef012728-9fda-48d8-8822-19d70e656be3" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="703763000" inclusionType="SELF_OR_DESCENDANT"/><!-- Precondition value -->
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="e7af2c98-b35f-473d-ad18-413d406870cc" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="71388002" inclusionType="SELF_OR_DESCENDANT"/><!-- Procedure -->
+				</range>
+			</predicate>
+		</predicate>
+	</constraints>
+
+
+	<constraints xsi:type="mrcm:AttributeConstraint" uuid="8cd723d2-1987-45cc-ab69-da1e9a14136c" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org">
+		<domain xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="e67dd810-f276-4b23-8b81-cc3323f1e431" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="363787002" inclusionType="DESCENDANT"/><!-- Observable entity -->
+		<predicate xsi:type="mrcm:CardinalityPredicate" uuid="38cbaa48-b172-43c3-a448-fb5ee2cd1802" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" maxCardinality="-1">
+			<predicate xsi:type="mrcm:RelationshipPredicate" uuid="ade56069-61df-4677-885b-a6f2a8639f1f" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org">
+				<attribute xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="fbf99dd4-c5e8-4e47-bfce-f6f2c1d78e65" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="370132008"/><!-- Scale type -->
+				<range xsi:type="mrcm:CompositeConceptSetDefinition" uuid="91df6f3a-6a9b-44a3-943c-f686e6a1125e" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org">
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="8a582d74-0a29-4cef-8e00-856d4f24b2d4" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="117365007" inclusionType="SELF_OR_DESCENDANT"/><!-- Ordinal or quantitative value -->
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="9d9be8b2-fe6e-43a0-8bf9-d4914ef79f89" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="117363000" inclusionType="SELF_OR_DESCENDANT"/><!-- Ordinal value -->
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="445d28ea-6899-48e4-bd53-4a6d28f6c9b4" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="30766002" inclusionType="SELF_OR_DESCENDANT"/><!-- Quantitative -->
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="5e52c530-0ebb-445b-871f-f374781e3c50" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="117364006" inclusionType="SELF_OR_DESCENDANT"/><!-- Narrative value -->
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="7d466068-ec0d-4b68-9af0-2209a6c8f3f8" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="26716007" inclusionType="SELF_OR_DESCENDANT"/><!-- Qualitative -->
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="29a2c3fd-e533-40e8-a12a-6d45b0545aeb" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="117444000" inclusionType="SELF_OR_DESCENDANT"/><!-- Text value -->
+				</range>
+			</predicate>
+		</predicate>
+	</constraints>
+
+	<constraints xsi:type="mrcm:AttributeConstraint" uuid="2ccd8407-6b85-4052-ad77-b1d360d22375" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org">
+		<domain xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="169df13b-2d54-462b-a947-6e9a3a035896" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="363787002" inclusionType="DESCENDANT"/><!-- Observable entity -->
+		<predicate xsi:type="mrcm:CardinalityPredicate" uuid="3d742bfc-4363-4e8c-9c41-6495f1dc653a" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" maxCardinality="-1">
+			<predicate xsi:type="mrcm:RelationshipPredicate" uuid="20320a88-fb84-45d1-830e-51956c78a910" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org">
+				<attribute xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="5f2d4ac1-a656-4c68-94f5-6087ebadfabb" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="246514001"/><!-- Units -->
+				<range xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="375b9dcb-3837-4f5f-8c52-25db3cd8f10f" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="258666001" inclusionType="SELF_OR_DESCENDANT"/><!-- Unit -->
+			</predicate>
+		</predicate>
+	</constraints>
+
+
+	<constraints xsi:type="mrcm:AttributeConstraint" uuid="0fe37e2d-03bd-44f0-a81e-637cc58bc619" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org">
+		<domain xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="8359216c-273c-4fd4-8860-d9af70d07ce3" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="363787002" inclusionType="DESCENDANT"/><!-- Observable entity -->
+		<predicate xsi:type="mrcm:CardinalityPredicate" uuid="598f44ff-bc98-435d-a00e-93f97d567e5c" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" maxCardinality="-1">
+			<predicate xsi:type="mrcm:RelationshipPredicate" uuid="bc1c33b2-c081-450b-8ffd-89c021ba1aca" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org">
+				<attribute xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="28ec4582-fc64-416f-b96c-ecf88ccc1f09" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="246501002"/><!-- Technique -->
+				<range xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="076779ec-cb20-454e-a0ef-a724cdac3f40" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="272394005" inclusionType="SELF_OR_DESCENDANT"/><!-- Technique (qualifier value) -->
+			</predicate>
+		</predicate>
+	</constraints>
+
+
+	<constraints xsi:type="mrcm:AttributeConstraint" uuid="f87d2419-cc6f-40e9-b640-0b6fe537a177" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org">
+		<domain xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="65c6134d-16f1-4405-9d2d-53729b5f2941" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="363787002" inclusionType="DESCENDANT"/><!-- Observable entity -->
+		<predicate xsi:type="mrcm:CardinalityPredicate" uuid="71ced6b2-b188-49c0-bb31-7d0340db6e52" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" maxCardinality="-1">
+			<predicate xsi:type="mrcm:RelationshipPredicate" uuid="b1c016da-448a-4e5c-85bc-859c88acde87" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org">
+				<attribute xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="a3426ea4-cc0b-4fed-8611-e8382324a9bb" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="704327008"/><!-- Direct site -->
+				<range xsi:type="mrcm:CompositeConceptSetDefinition" uuid="9140821d-ee65-4b7f-90a3-a92a470aa7f0" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org">
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="2d03489c-a88d-41d2-a2ab-32625455b518" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="123037004" inclusionType="SELF_OR_DESCENDANT"/><!-- Body structure -->
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="0f734da6-a26b-45a3-b95f-faa50733bae3" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="410607006" inclusionType="SELF_OR_DESCENDANT"/><!-- Organism -->
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="5e50c2e3-78e0-49f6-9c86-d5031ba6ad09" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="105590001" inclusionType="SELF_OR_DESCENDANT"/><!-- Substance -->
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="0e511617-eb11-4597-afd0-0a9fe2ced536" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="123038009" inclusionType="SELF_OR_DESCENDANT"/><!-- Specimen -->
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="ecb134fc-ddc4-493d-81bb-9c47422a09b0" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="260787004" inclusionType="SELF_OR_DESCENDANT"/><!-- Physical object -->
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="5590c584-1cdc-49b2-9d47-5cc3b15f8091" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="373873005" inclusionType="SELF_OR_DESCENDANT"/><!-- Pharmaceutical / biologic product -->
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="2485702d-c383-4a11-b3d4-54a2cdb63c18" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="419891008" inclusionType="SELF_OR_DESCENDANT"/><!-- Record artifact -->
+				</range>
+			</predicate>
+		</predicate>
+	</constraints>
+
+	<constraints xsi:type="mrcm:AttributeConstraint" uuid="db0e1fec-5985-42ba-9681-a18dae2a5edc" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org">
+		<domain xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="64cbbfbf-0f82-45d4-8ad1-f84c541062e6" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="363787002" inclusionType="DESCENDANT"/><!-- Observable entity -->
+		<predicate xsi:type="mrcm:CardinalityPredicate" uuid="07ec4365-2bf7-4a4e-b5bf-2117e5cf7093" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" maxCardinality="-1">
+			<predicate xsi:type="mrcm:RelationshipPredicate" uuid="d2bc74a1-8a25-4928-b0c6-4c9ddcbeebfb" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org">
+				<attribute xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="9fb850ca-4d69-4d02-8c93-4d27c04151c2" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="719722006"/><!-- Has realization -->
+				<range xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="c574c9d7-b322-4315-8df0-d7dba1579e35" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="719982003" inclusionType="SELF_OR_DESCENDANT"/><!-- Process -->
+			</predicate>
+		</predicate>
+	</constraints>
+
+	<constraints xsi:type="mrcm:AttributeConstraint" uuid="77d30cba-0b87-4d16-8680-6106d9579384" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org">
+		<domain xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="3daaf6e5-06e4-44ee-ba83-05232d4e0a12" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="363787002" inclusionType="DESCENDANT"/><!-- Observable entity -->
+		<predicate xsi:type="mrcm:CardinalityPredicate" uuid="91d405c7-e386-4aee-8271-765b59dcce5e" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" maxCardinality="-1">
+			<predicate xsi:type="mrcm:RelationshipPredicate" uuid="cb4430c7-39dd-48c6-9e0a-c8d78f1ccc6d" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org">
+				<attribute xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="cfa59f5d-f042-491a-b94b-9b286757c4f2" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="424226004"/><!-- Using device -->
+				<range xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="e8dce7cd-3079-4fc3-918f-17293fe3d5ae" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="260787004" inclusionType="SELF_OR_DESCENDANT"/><!-- Physical object -->
+			</predicate>
+		</predicate>
+	</constraints>
+
+	<constraints xsi:type="mrcm:AttributeConstraint" uuid="d87493f0-93f1-4c04-8e5a-ea8eecca52d8" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org">
+		<domain xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="b3b5cf50-9aba-4e05-a5b6-b720d1743102" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="363787002" inclusionType="DESCENDANT"/><!-- Observable entity -->
+		<predicate xsi:type="mrcm:CardinalityPredicate" uuid="2c036104-6726-449d-b2a6-6e4447d3e429" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" maxCardinality="-1">
+			<predicate xsi:type="mrcm:RelationshipPredicate" uuid="8a06a554-080a-4987-b780-130c83b8bf01" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org">
+				<attribute xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="18505ed9-013b-480c-a878-d209441ce9c6" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="719723001"/><!-- Observable component -->
+				<range xsi:type="mrcm:CompositeConceptSetDefinition" uuid="788cd278-a6ca-421f-a5ef-ed0f7ea1e6bf" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org">
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="bfd5cc90-0357-40b3-ba41-1e600802a487" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="123037004" inclusionType="SELF_OR_DESCENDANT"/><!-- Body structure -->
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="4485dd86-0808-4b7c-8687-c0a49e04f3c7" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="410607006" inclusionType="SELF_OR_DESCENDANT"/><!-- Organism -->
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="6e438d54-4daf-467b-8762-aad56ae3848b" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="105590001" inclusionType="SELF_OR_DESCENDANT"/><!-- Substance -->
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="c865602e-b827-4321-9c52-5bb1bad0b7aa" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="123038009" inclusionType="SELF_OR_DESCENDANT"/><!-- Specimen -->
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="c01fc61c-7e51-49b8-b068-c1456b74aaf2" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="260787004" inclusionType="SELF_OR_DESCENDANT"/><!-- Physical object -->
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="4a600421-35e0-40bb-ada7-cb9eba98a796" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="373873005" inclusionType="SELF_OR_DESCENDANT"/><!-- Pharmaceutical / biologic product -->
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="636c059e-a56f-40a9-ac29-ba7c70888e38" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="419891008" inclusionType="SELF_OR_DESCENDANT"/><!-- Record artifact -->
+				</range>
+			</predicate>
+		</predicate>
+	</constraints>
+
+	<constraints xsi:type="mrcm:AttributeConstraint" uuid="08a551cd-17db-4944-8aeb-e2221e4a965a" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org">
+		<domain xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="ebb9db6b-9e6e-4fcd-a0a9-ca6d1b2cc079" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="363787002" inclusionType="DESCENDANT"/><!-- Observable entity -->
+		<predicate xsi:type="mrcm:CardinalityPredicate" uuid="8a61706d-8671-4b0f-9619-206c40a95dda" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" maxCardinality="-1">
+			<predicate xsi:type="mrcm:RelationshipPredicate" uuid="40b8df9b-ffb0-4ef0-a680-d522143b9bf5" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org">
+				<attribute xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="ddb2ec69-7a45-4b71-bc0f-ee6bb3c359ae" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="370134009"/><!-- Time aspect -->
+				<range xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="b48d2e13-3ec7-488b-a441-79a86c28d38b" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="7389001" inclusionType="SELF_OR_DESCENDANT"/><!-- Time frame -->
+			</predicate>
+		</predicate>
+	</constraints>
+
 </mrcm:ConceptModel>
