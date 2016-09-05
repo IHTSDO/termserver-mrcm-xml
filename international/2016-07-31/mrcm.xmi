@@ -699,7 +699,7 @@
 		<predicate xsi:type="mrcm:CardinalityPredicate" uuid="fb5d49a8-22fb-4fa8-b0d9-826c68315467" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" maxCardinality="-1">
 			<predicate xsi:type="mrcm:RelationshipPredicate" uuid="8d571d1c-cce5-4e4c-a80d-f1b06e0247ad" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org">
 				<attribute xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="ab8128f7-edcf-40a4-aa7f-386dd04479de" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="704323007"/><!-- Process duration -->
-				<range xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="22c45f63-a389-4d77-bc5d-5641cfda56d4" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="7389001" inclusionType="SELF_OR_DESCENDANT"/><!-- Time frame -->
+				<range xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="22c45f63-a389-4d77-bc5d-5641cfda56d4" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="7389001" inclusionType="DESCENDANT"/><!-- Time frame -->
 			</predicate>
 		</predicate>
 	</constraints>
@@ -805,7 +805,7 @@
 		<predicate xsi:type="mrcm:CardinalityPredicate" uuid="3d742bfc-4363-4e8c-9c41-6495f1dc653a" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" maxCardinality="-1">
 			<predicate xsi:type="mrcm:RelationshipPredicate" uuid="20320a88-fb84-45d1-830e-51956c78a910" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org">
 				<attribute xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="5f2d4ac1-a656-4c68-94f5-6087ebadfabb" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="246514001"/><!-- Units -->
-				<range xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="375b9dcb-3837-4f5f-8c52-25db3cd8f10f" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="258666001" inclusionType="SELF_OR_DESCENDANT"/><!-- Unit -->
+				<range xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="375b9dcb-3837-4f5f-8c52-25db3cd8f10f" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="258666001" inclusionType="DESCENDANT"/><!-- Unit -->
 			</predicate>
 		</predicate>
 	</constraints>
@@ -816,7 +816,7 @@
 		<predicate xsi:type="mrcm:CardinalityPredicate" uuid="598f44ff-bc98-435d-a00e-93f97d567e5c" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" maxCardinality="-1">
 			<predicate xsi:type="mrcm:RelationshipPredicate" uuid="bc1c33b2-c081-450b-8ffd-89c021ba1aca" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org">
 				<attribute xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="28ec4582-fc64-416f-b96c-ecf88ccc1f09" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="246501002"/><!-- Technique -->
-				<range xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="076779ec-cb20-454e-a0ef-a724cdac3f40" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="272394005" inclusionType="SELF_OR_DESCENDANT"/><!-- Technique (qualifier value) -->
+				<range xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="076779ec-cb20-454e-a0ef-a724cdac3f40" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="272394005" inclusionType="DESCENDANT"/><!-- Technique (qualifier value) -->
 			</predicate>
 		</predicate>
 	</constraints>
@@ -883,7 +883,7 @@
 		<predicate xsi:type="mrcm:CardinalityPredicate" uuid="8a61706d-8671-4b0f-9619-206c40a95dda" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" maxCardinality="-1">
 			<predicate xsi:type="mrcm:RelationshipPredicate" uuid="40b8df9b-ffb0-4ef0-a680-d522143b9bf5" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org">
 				<attribute xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="ddb2ec69-7a45-4b71-bc0f-ee6bb3c359ae" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="370134009"/><!-- Time aspect -->
-				<range xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="b48d2e13-3ec7-488b-a441-79a86c28d38b" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="7389001" inclusionType="SELF_OR_DESCENDANT"/><!-- Time frame -->
+				<range xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="b48d2e13-3ec7-488b-a441-79a86c28d38b" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="7389001" inclusionType="DESCENDANT"/><!-- Time frame -->
 			</predicate>
 		</predicate>
 	</constraints>
