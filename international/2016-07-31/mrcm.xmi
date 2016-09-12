@@ -458,16 +458,15 @@
 		</predicate>
 	</constraints>
 	<constraints xsi:type="mrcm:AttributeConstraint" uuid="254e4e10-6ed7-466c-8e1a-22798277de9c" active="true" effectiveTime="2012-08-08T21:30:36.000+0000" author="obali@b2international.com">
-		<domain xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="1ecab10e-90f2-4f0e-abd7-9d10b85c2640" active="true" effectiveTime="2012-08-08T21:30:52.000+0000" author="obali@b2international.com" conceptId="243796009" inclusionType="DESCENDANT"/>
+		<domain xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="1ecab10e-90f2-4f0e-abd7-9d10b85c2640" active="true" effectiveTime="2012-08-08T21:30:52.000+0000" author="obali@b2international.com" conceptId="243796009" inclusionType="DESCENDANT"/> <!-- Situation with explicit context -->
 		<predicate xsi:type="mrcm:CardinalityPredicate" uuid="9bc6311b-1328-4c27-aac6-897a04d4e2d7" active="true" effectiveTime="2012-08-08T21:31:09.000+0000" author="obali@b2international.com" maxCardinality="1" groupRule="ALL_GROUPS">
 			<predicate xsi:type="mrcm:RelationshipPredicate" uuid="78df2134-b4ee-403d-a17e-fd8035dfa552" active="true" effectiveTime="2012-08-08T21:31:09.000+0000" author="obali@b2international.com" characteristicTypeConceptId="900000000000006009">
-				<attribute xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="d8052df5-7989-4bb7-9804-94afedb7bf80" active="true" effectiveTime="2012-08-08T21:31:16.000+0000" author="obali@b2international.com" conceptId="246090004"/>
+				<attribute xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="d8052df5-7989-4bb7-9804-94afedb7bf80" active="true" effectiveTime="2012-08-08T21:31:16.000+0000" author="obali@b2international.com" conceptId="246090004"/> <!-- Associated finding -->
 				<range xsi:type="mrcm:CompositeConceptSetDefinition" uuid="0ff86dc0-2375-4f4e-892a-e68e99f3e191" active="true" effectiveTime="2012-08-08T21:31:35.000+0000" author="obali@b2international.com">
-					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="31bc3821-e36f-4513-bfe1-b17d626e9f1f" active="true" effectiveTime="2012-08-08T21:31:40.000+0000" author="obali@b2international.com" conceptId="404684003" inclusionType="DESCENDANT"/>
-					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="090d5d4b-e1fb-4d7c-9b5d-f277e944a53c" active="true" effectiveTime="2012-08-08T21:31:52.000+0000" author="obali@b2international.com" conceptId="272379006" inclusionType="DESCENDANT"/>
-					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="3b60ca07-b9be-495f-9ea7-5712788bbd47" active="true" effectiveTime="2012-08-08T21:49:50.000+0000" author="obali@b2international.com" conceptId="363787002" inclusionType="DESCENDANT"/>
-					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="83758bf7-d640-44db-b6a1-1a1da0ae8189" active="true" effectiveTime="2012-08-08T21:50:16.000+0000" author="obali@b2international.com" conceptId="416698001" inclusionType="DESCENDANT"/>
-					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="f6cb5b70-e75e-4047-9683-742f00fac358" active="true" effectiveTime="2012-08-08T21:51:42.000+0000" author="obali@b2international.com" conceptId="71388002" inclusionType="DESCENDANT"/>
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="31bc3821-e36f-4513-bfe1-b17d626e9f1f" active="true" effectiveTime="2012-08-08T21:31:40.000+0000" author="obali@b2international.com" conceptId="404684003" inclusionType="DESCENDANT"/> <!-- Clinical finding -->
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="090d5d4b-e1fb-4d7c-9b5d-f277e944a53c" active="true" effectiveTime="2012-08-08T21:31:52.000+0000" author="obali@b2international.com" conceptId="272379006" inclusionType="DESCENDANT"/> <!-- Event -->
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="3b60ca07-b9be-495f-9ea7-5712788bbd47" active="true" effectiveTime="2012-08-08T21:49:50.000+0000" author="obali@b2international.com" conceptId="363787002" inclusionType="DESCENDANT"/> <!-- Observable entity -->
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="83758bf7-d640-44db-b6a1-1a1da0ae8189" active="true" effectiveTime="2012-08-08T21:50:16.000+0000" author="obali@b2international.com" conceptId="416698001" inclusionType="DESCENDANT"/> <!-- Link assertion -->
 				</range>
 			</predicate>
 		</predicate>
