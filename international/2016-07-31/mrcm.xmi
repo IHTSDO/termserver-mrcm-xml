@@ -284,13 +284,13 @@
 		</predicate>
 	</constraints>
 	<constraints xsi:type="mrcm:AttributeConstraint" uuid="5a88b3b8-a806-49a7-a4e7-52e4432e1486" active="true" effectiveTime="2012-08-08T21:55:26.000+0000" author="obali@b2international.com">
-		<domain xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="f8bb3ba7-c01d-4f0b-a613-ca3306743dee" active="true" effectiveTime="2012-08-08T21:30:52.000+0000" author="obali@b2international.com" conceptId="243796009" inclusionType="DESCENDANT"/>
+		<domain xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="f8bb3ba7-c01d-4f0b-a613-ca3306743dee" active="true" effectiveTime="2012-08-08T21:30:52.000+0000" author="obali@b2international.com" conceptId="243796009" inclusionType="DESCENDANT"/> <!-- Situation with explicit context -->
 		<predicate xsi:type="mrcm:CardinalityPredicate" uuid="31b0db8d-b1e5-4972-89b9-871616137644" active="true" effectiveTime="2012-08-08T21:31:09.000+0000" author="obali@b2international.com" maxCardinality="1" groupRule="ALL_GROUPS">
 			<predicate xsi:type="mrcm:RelationshipPredicate" uuid="7f81d507-9122-4fb4-9ec8-cb38a8819de3" active="true" effectiveTime="2012-08-08T21:31:09.000+0000" author="obali@b2international.com" characteristicTypeConceptId="900000000000006009">
-				<attribute xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="ad84c390-2bc2-4e0e-89ae-b2b97b8946d2" active="true" effectiveTime="2012-08-08T21:31:16.000+0000" author="obali@b2international.com" conceptId="363589002"/>
+				<attribute xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="ad84c390-2bc2-4e0e-89ae-b2b97b8946d2" active="true" effectiveTime="2012-08-08T21:31:16.000+0000" author="obali@b2international.com" conceptId="363589002"/> <!-- Associated procedure -->
 				<range xsi:type="mrcm:CompositeConceptSetDefinition" uuid="3112d7f5-6c8d-4aee-9fdc-62eef97638ba" active="true" effectiveTime="2012-08-08T21:31:35.000+0000" author="obali@b2international.com">
-					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="10a79b11-071f-4362-a0b2-e2a8367787b6" active="true" effectiveTime="2012-08-08T21:49:50.000+0000" author="obali@b2international.com" conceptId="363787002" inclusionType="DESCENDANT"/>
-					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="b71daa19-8933-4c33-9955-1faeaa6657b0" active="true" effectiveTime="2012-08-08T21:51:42.000+0000" author="obali@b2international.com" conceptId="71388002" inclusionType="DESCENDANT"/>
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="10a79b11-071f-4362-a0b2-e2a8367787b6" active="true" effectiveTime="2012-08-08T21:49:50.000+0000" author="obali@b2international.com" conceptId="363787002" inclusionType="DESCENDANT"/> <!-- Observable entity -->
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="f61cad8b-b8c3-44ac-8956-561c8704a1a7" active="true" effectiveTime="2016-09-23T12:00:00.000+0000" author="apeteri@b2international.com" conceptId="71388002" inclusionType="SELF_OR_DESCENDANT"/> <!-- Procedure -->
 				</range>
 			</predicate>
 		</predicate>
