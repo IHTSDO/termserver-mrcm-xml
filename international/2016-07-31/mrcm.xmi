@@ -364,7 +364,7 @@
 		<domain xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="659c27e2-347a-49e9-96cb-9635d786be83" active="true" effectiveTime="2012-08-08T20:18:09.000+0000" author="obali@b2international.com" conceptId="71388002" inclusionType="DESCENDANT"/>
 		<predicate xsi:type="mrcm:CardinalityPredicate" uuid="d04bdc82-dccd-4607-9798-ba1338706412" active="true" effectiveTime="2012-08-08T20:18:35.000+0000" author="obali@b2international.com" maxCardinality="-1" groupRule="ALL_GROUPS">
 			<predicate xsi:type="mrcm:RelationshipPredicate" uuid="754bfd7f-8406-44f4-bce7-fd81c5680139" active="true" effectiveTime="2012-08-08T20:18:35.000+0000" author="obali@b2international.com">
-				<attribute xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="781f2123-62a7-46fc-9550-a3aa68084bb8" active="true" effectiveTime="2012-08-08T20:19:03.000+0000" author="obali@b2international.com" conceptId="246093002"/>
+				<attribute xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="781f2123-62a7-46fc-9550-a3aa68084bb8" active="true" effectiveTime="2012-08-08T20:19:03.000+0000" author="obali@b2international.com" conceptId="246093002"/><!-- Component -->
 				<range xsi:type="mrcm:CompositeConceptSetDefinition" uuid="75539565-055f-46f2-b31d-6246b0cf8ca4" active="true" effectiveTime="2012-08-08T20:19:24.000+0000" author="obali@b2international.com">
 					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="46b0f17b-e29b-404e-b6db-3febce96c36b" active="true" effectiveTime="2012-08-08T20:19:28.000+0000" author="obali@b2international.com" conceptId="105590001" inclusionType="DESCENDANT"/>
 					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="334db975-bc58-47fe-a0b7-cdc33b5bd9f2" active="true" effectiveTime="2012-08-08T20:25:17.000+0000" author="obali@b2international.com" conceptId="363787002" inclusionType="DESCENDANT"/>
@@ -859,19 +859,19 @@
 		</predicate>
 	</constraints>
 
-	<constraints xsi:type="mrcm:AttributeConstraint" uuid="d87493f0-93f1-4c04-8e5a-ea8eecca52d8" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org">
-		<domain xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="b3b5cf50-9aba-4e05-a5b6-b720d1743102" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="363787002" inclusionType="DESCENDANT"/><!-- Observable entity -->
-		<predicate xsi:type="mrcm:CardinalityPredicate" uuid="2c036104-6726-449d-b2a6-6e4447d3e429" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" maxCardinality="-1">
-			<predicate xsi:type="mrcm:RelationshipPredicate" uuid="8a06a554-080a-4987-b780-130c83b8bf01" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org">
-				<attribute xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="18505ed9-013b-480c-a878-d209441ce9c6" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="719723001"/><!-- Observable component -->
-				<range xsi:type="mrcm:CompositeConceptSetDefinition" uuid="788cd278-a6ca-421f-a5ef-ed0f7ea1e6bf" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org">
-					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="bfd5cc90-0357-40b3-ba41-1e600802a487" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="123037004" inclusionType="SELF_OR_DESCENDANT"/><!-- Body structure -->
-					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="4485dd86-0808-4b7c-8687-c0a49e04f3c7" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="410607006" inclusionType="SELF_OR_DESCENDANT"/><!-- Organism -->
-					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="6e438d54-4daf-467b-8762-aad56ae3848b" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="105590001" inclusionType="SELF_OR_DESCENDANT"/><!-- Substance -->
-					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="c865602e-b827-4321-9c52-5bb1bad0b7aa" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="123038009" inclusionType="SELF_OR_DESCENDANT"/><!-- Specimen -->
-					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="c01fc61c-7e51-49b8-b068-c1456b74aaf2" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="260787004" inclusionType="SELF_OR_DESCENDANT"/><!-- Physical object -->
-					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="4a600421-35e0-40bb-ada7-cb9eba98a796" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="373873005" inclusionType="SELF_OR_DESCENDANT"/><!-- Pharmaceutical / biologic product -->
-					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="636c059e-a56f-40a9-ac29-ba7c70888e38" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="419891008" inclusionType="SELF_OR_DESCENDANT"/><!-- Record artifact -->
+	<constraints xsi:type="mrcm:AttributeConstraint" uuid="8e6dc62d-9d8b-4d8d-9563-d0b406e2ebee" active="true" effectiveTime="2016-10-19T12:00:00.000+0000" author="kke@ihtsdo.org">
+		<domain xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="e510976f-219a-4a04-884a-25beabec14b1" active="true" effectiveTime="2016-10-19T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="363787002" inclusionType="DESCENDANT"/><!-- Observable entity -->
+		<predicate xsi:type="mrcm:CardinalityPredicate" uuid="bb47b336-fd54-4771-b92e-95ff80a67440" active="true" effectiveTime="2016-10-19T12:00:00.000+0000" author="kke@ihtsdo.org" maxCardinality="-1">
+			<predicate xsi:type="mrcm:RelationshipPredicate" uuid="4a17b6e2-7ac0-4ab6-b4e4-7c77aa610db7" active="true" effectiveTime="2016-10-19T12:00:00.000+0000" author="kke@ihtsdo.org">
+				<attribute xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="465379cb-cca7-400e-adf2-9ca09c76fdea" active="true" effectiveTime="2016-10-19T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="246093002"/><!-- Component -->
+				<range xsi:type="mrcm:CompositeConceptSetDefinition" uuid="336786ff-009a-41e6-943c-39a0cc481ffa" active="true" effectiveTime="2016-10-19T12:00:00.000+0000" author="kke@ihtsdo.org">
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="d519968b-fb36-4905-bd7f-633d967a1139" active="true" effectiveTime="2016-10-19T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="123037004" inclusionType="SELF_OR_DESCENDANT"/><!-- Body structure -->
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="1099132a-6abb-4442-ab55-8a41eb9c1f94" active="true" effectiveTime="2016-10-19T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="410607006" inclusionType="SELF_OR_DESCENDANT"/><!-- Organism -->
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="f4f1b860-1d7a-4782-90e6-3bea2b33efb9" active="true" effectiveTime="2016-10-19T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="105590001" inclusionType="SELF_OR_DESCENDANT"/><!-- Substance -->
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="744e7340-a988-49ad-946e-01fd6f6ba774" active="true" effectiveTime="2016-10-19T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="123038009" inclusionType="SELF_OR_DESCENDANT"/><!-- Specimen -->
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="b43c0a84-e32f-49cc-9afd-0aeb0d1df65f" active="true" effectiveTime="2016-10-19T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="260787004" inclusionType="SELF_OR_DESCENDANT"/><!-- Physical object -->
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="23516dc7-c7db-45a9-a6d5-0e9d115eae7a" active="true" effectiveTime="2016-10-19T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="373873005" inclusionType="SELF_OR_DESCENDANT"/><!-- Pharmaceutical / biologic product -->
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="2b1a4e50-ad64-489d-a84d-4abcd3d45985" active="true" effectiveTime="2016-10-19T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="419891008" inclusionType="SELF_OR_DESCENDANT"/><!-- Record artifact -->
 				</range>
 			</predicate>
 		</predicate>
