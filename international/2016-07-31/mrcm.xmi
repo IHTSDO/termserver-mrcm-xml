@@ -712,6 +712,7 @@
 			<predicate xsi:type="mrcm:RelationshipPredicate" uuid="963e835f-7523-49f9-8f8f-bebf21f24d87" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org">
 				<attribute xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="9621a22d-91b0-4df1-85fa-ce3badd60d65" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="704324001"/><!-- Process output -->
 				<range xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="fe3338f4-7a82-40b5-b437-279e9174cba2" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="105590001" inclusionType="SELF_OR_DESCENDANT"/><!-- Substance -->
+				<range xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="fc8d4411-31d7-4b7d-beae-2b3267d45d5f" active="true" effectiveTime="2016-11-04T09:00:00.000+0000" author="kke@ihtsdo.org" conceptId="719982003" inclusionType="SELF_OR_DESCENDANT"/><!-- Process -->
 			</predicate>
 		</predicate>
 	</constraints>
