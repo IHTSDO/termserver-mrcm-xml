@@ -448,11 +448,11 @@
 		<domain xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="b4a7200e-c6e7-479a-a1b9-44d02e94c021" active="true" effectiveTime="2012-08-06T20:53:56.000+0000" author="obali@b2international.com" conceptId="404684003" inclusionType="DESCENDANT"/>
 		<predicate xsi:type="mrcm:CardinalityPredicate" uuid="736b12ac-d3d4-4f4c-823b-f577d29eed60" active="true" effectiveTime="2012-08-06T20:54:26.000+0000" author="obali@b2international.com" maxCardinality="-1">
 			<predicate xsi:type="mrcm:RelationshipPredicate" uuid="a42bb0c6-f219-464e-ac6e-2a0cbdebc604" active="true" effectiveTime="2012-08-06T20:54:26.000+0000" author="obali@b2international.com">
-				<attribute xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="3c38766a-bcd0-477c-8fa7-6883b76d6dd3" active="true" effectiveTime="2012-08-06T20:54:37.000+0000" author="obali@b2international.com" conceptId="370135005"/>
+				<attribute xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="3c38766a-bcd0-477c-8fa7-6883b76d6dd3" active="true" effectiveTime="2012-08-06T20:54:37.000+0000" author="obali@b2international.com" conceptId="370135005"/><!-- Pathological process -->
 				<range xsi:type="mrcm:CompositeConceptSetDefinition" uuid="008b5771-209e-446b-b2a6-f915b5ef1eba" active="true" effectiveTime="2012-08-06T20:55:44.000+0000" author="obali@b2international.com">
-					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="9105e80d-4338-42d6-b573-0deeb2e1ba66" active="true" effectiveTime="2012-08-06T20:57:11.000+0000" author="obali@b2international.com" conceptId="263680009"/>
-					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="8b488ad8-0f11-483d-85d7-b30afca6d4a5" active="true" effectiveTime="2012-08-06T20:57:31.000+0000" author="obali@b2international.com" conceptId="441862004" inclusionType="SELF_OR_DESCENDANT"/>
-					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="7439e7b7-6fa7-4d99-95bf-64f21eb3fb6d" active="true" effectiveTime="2016-02-09T20:03:24.000+0000" author="obali@b2international.com" conceptId="472963003" inclusionType="SELF_OR_DESCENDANT"/>
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="9105e80d-4338-42d6-b573-0deeb2e1ba66" active="true" effectiveTime="2012-08-06T20:57:11.000+0000" author="obali@b2international.com" conceptId="263680009"/><!-- Autoimmune -->
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="8b488ad8-0f11-483d-85d7-b30afca6d4a5" active="true" effectiveTime="2012-08-06T20:57:31.000+0000" author="obali@b2international.com" conceptId="441862004" inclusionType="SELF_OR_DESCENDANT"/><!-- Infectious process -->
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="7439e7b7-6fa7-4d99-95bf-64f21eb3fb6d" active="true" effectiveTime="2016-02-09T20:03:24.000+0000" author="obali@b2international.com" conceptId="472963003" inclusionType="SELF_OR_DESCENDANT"/><!-- Hypersensitivity process -->
 				</range>
 			</predicate>
 		</predicate>
@@ -624,7 +624,7 @@
 			</predicate>
 		</predicate>
 	</constraints>
-	
+
 	<constraints xsi:type="mrcm:AttributeConstraint" uuid="65326e7f-6de5-41c1-9e58-f2759e45e430" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org">
 		<domain xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="352331bd-4b03-46fa-9509-8c9fdb2f5c1c" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="363787002" inclusionType="DESCENDANT"/><!-- Observable entity -->
 		<predicate xsi:type="mrcm:CardinalityPredicate" uuid="437229e5-3ea4-44d1-889f-b2fb19bb606c" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" maxCardinality="-1">
