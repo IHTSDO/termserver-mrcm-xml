@@ -550,10 +550,10 @@
 		<domain xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="5a32b3d3-77cd-4ab7-9e6b-c5d49550801c" active="true" effectiveTime="2012-08-06T20:53:56.000+0000" author="obali@b2international.com" conceptId="404684003" inclusionType="DESCENDANT"/>
 		<predicate xsi:type="mrcm:CardinalityPredicate" uuid="ed4ec88c-429c-4b4e-be78-94c1843d645e" active="true" effectiveTime="2012-08-06T20:54:26.000+0000" author="obali@b2international.com" maxCardinality="-1">
 			<predicate xsi:type="mrcm:RelationshipPredicate" uuid="41a928d8-be62-4a3f-a22d-f5969855de56" active="true" effectiveTime="2012-08-06T20:54:26.000+0000" author="obali@b2international.com">
-				<attribute xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="d50cd3cc-0d05-453e-9f9b-1fae9107140b" active="true" effectiveTime="2012-08-06T20:54:37.000+0000" author="obali@b2international.com" conceptId="42752001"/>
+				<attribute xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="d50cd3cc-0d05-453e-9f9b-1fae9107140b" active="true" effectiveTime="2012-08-06T20:54:37.000+0000" author="obali@b2international.com" conceptId="42752001"/><!-- Due to -->
 				<range xsi:type="mrcm:CompositeConceptSetDefinition" uuid="2a51deb4-8332-42cc-931b-3a893c2c3d73" active="true" effectiveTime="2012-08-06T20:55:44.000+0000" author="obali@b2international.com">
-					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="1a89cfbe-5ee1-44de-a590-744a7e3fb2ba" active="true" effectiveTime="2012-08-06T20:57:11.000+0000" author="obali@b2international.com" conceptId="404684003" inclusionType="DESCENDANT"/>
-					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="77fc63cb-a34c-4b0f-94cc-fd3ea5058ad8" active="true" effectiveTime="2012-08-06T20:57:31.000+0000" author="obali@b2international.com" conceptId="272379006" inclusionType="DESCENDANT"/>
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="1a89cfbe-5ee1-44de-a590-744a7e3fb2ba" active="true" effectiveTime="2012-08-06T20:57:11.000+0000" author="obali@b2international.com" conceptId="404684003" inclusionType="DESCENDANT"/><!-- Clinical finding -->
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="77fc63cb-a34c-4b0f-94cc-fd3ea5058ad8" active="true" effectiveTime="2012-08-06T20:57:31.000+0000" author="obali@b2international.com" conceptId="272379006" inclusionType="DESCENDANT"/><!-- Event -->
 				</range>
 			</predicate>
 		</predicate>
