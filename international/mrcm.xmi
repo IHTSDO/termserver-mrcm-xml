@@ -453,6 +453,7 @@
 					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="9105e80d-4338-42d6-b573-0deeb2e1ba66" active="true" effectiveTime="2012-08-06T20:57:11.000+0000" author="obali@b2international.com" conceptId="263680009"/><!-- Autoimmune -->
 					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="8b488ad8-0f11-483d-85d7-b30afca6d4a5" active="true" effectiveTime="2012-08-06T20:57:31.000+0000" author="obali@b2international.com" conceptId="441862004" inclusionType="SELF_OR_DESCENDANT"/><!-- Infectious process -->
 					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="7439e7b7-6fa7-4d99-95bf-64f21eb3fb6d" active="true" effectiveTime="2016-02-09T20:03:24.000+0000" author="obali@b2international.com" conceptId="472963003" inclusionType="SELF_OR_DESCENDANT"/><!-- Hypersensitivity process -->
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="70557409-a34d-4e22-8482-c20f5880d8e1" active="true" effectiveTime="2017-02-20T12:00:00.000+0000" author="kke@snomed.org" conceptId="308490002" inclusionType="SELF_OR_DESCENDANT"/><!-- Pathological developmental process -->
 				</range>
 			</predicate>
 		</predicate>
