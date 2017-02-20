@@ -284,7 +284,8 @@
 		</predicate>
 	</constraints>
 	<constraints xsi:type="mrcm:AttributeConstraint" uuid="5a88b3b8-a806-49a7-a4e7-52e4432e1486" active="true" effectiveTime="2012-08-08T21:55:26.000+0000" author="obali@b2international.com">
-		<domain xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="f8bb3ba7-c01d-4f0b-a613-ca3306743dee" active="true" effectiveTime="2012-08-08T21:30:52.000+0000" author="obali@b2international.com" conceptId="243796009" inclusionType="DESCENDANT"/> <!-- Situation with explicit context -->
+		<domain xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="faced2c5-4fff-4547-97d9-15ea3b266a90" active="true" effectiveTime="2017-02-20T12:00:00.000+0000" author="kke@snomed.org" conceptId="129125009" inclusionType="SELF_OR_DESCENDANT"/> <!-- Procedure with explicit context -->
+		<domain xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="f8bb3ba7-c01d-4f0b-a613-ca3306743dee" active="false" effectiveTime="2012-08-08T21:30:52.000+0000" author="obali@b2international.com" conceptId="243796009" inclusionType="DESCENDANT"/> <!-- INACTIVE - Situation with explicit context -->
 		<predicate xsi:type="mrcm:CardinalityPredicate" uuid="31b0db8d-b1e5-4972-89b9-871616137644" active="true" effectiveTime="2012-08-08T21:31:09.000+0000" author="obali@b2international.com" maxCardinality="1" groupRule="ALL_GROUPS">
 			<predicate xsi:type="mrcm:RelationshipPredicate" uuid="7f81d507-9122-4fb4-9ec8-cb38a8819de3" active="true" effectiveTime="2012-08-08T21:31:09.000+0000" author="obali@b2international.com" characteristicTypeConceptId="900000000000006009">
 				<attribute xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="ad84c390-2bc2-4e0e-89ae-b2b97b8946d2" active="true" effectiveTime="2012-08-08T21:31:16.000+0000" author="obali@b2international.com" conceptId="363589002"/> <!-- Associated procedure -->
