@@ -554,6 +554,7 @@
 				<range xsi:type="mrcm:CompositeConceptSetDefinition" uuid="2a51deb4-8332-42cc-931b-3a893c2c3d73" active="true" effectiveTime="2012-08-06T20:55:44.000+0000" author="obali@b2international.com">
 					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="1a89cfbe-5ee1-44de-a590-744a7e3fb2ba" active="true" effectiveTime="2012-08-06T20:57:11.000+0000" author="obali@b2international.com" conceptId="404684003" inclusionType="DESCENDANT"/><!-- Clinical finding -->
 					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="77fc63cb-a34c-4b0f-94cc-fd3ea5058ad8" active="true" effectiveTime="2012-08-06T20:57:31.000+0000" author="obali@b2international.com" conceptId="272379006" inclusionType="DESCENDANT"/><!-- Event -->
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="ea243fc1-616b-4fb9-b682-a3f3055d0669" active="true" effectiveTime="2017-02-20T12:00:00.000+0000" author="kke@snomed.org" conceptId="71388002" inclusionType="DESCENDANT"/><!-- Procedure -->
 				</range>
 			</predicate>
 		</predicate>
