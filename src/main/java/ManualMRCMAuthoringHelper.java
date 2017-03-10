@@ -19,7 +19,7 @@ public class ManualMRCMAuthoringHelper {
 		String author = "kke@snomed.org";
 		String effectiveTime = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss.SSSZ").format(new Date());
 
-		File workFile = new File("international/.work.txt");
+		File workFile = new File("international/.work.xml");
 		if (!workFile.exists()) {
 			throw new RuntimeException("Scratch file does not exist " + workFile.getAbsolutePath());
 		}
