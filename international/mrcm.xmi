@@ -642,15 +642,15 @@
 			</predicate>
 		</predicate>
 	</constraints>
-	<constraints xsi:type="mrcm:AttributeConstraint" uuid="dacde6c7-e3d4-48cd-8f79-53001efbb2d8" active="true" effectiveTime="2012-08-06T21:00:28.000+0000" author="obali@b2international.com">
-		<domain xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="5a32b3d3-77cd-4ab7-9e6b-c5d49550801c" active="true" effectiveTime="2012-08-06T20:53:56.000+0000" author="obali@b2international.com" conceptId="404684003" inclusionType="DESCENDANT"/><!-- Clinical finding (finding) -->
-		<predicate xsi:type="mrcm:CardinalityPredicate" uuid="ed4ec88c-429c-4b4e-be78-94c1843d645e" active="true" effectiveTime="2012-08-06T20:54:26.000+0000" author="obali@b2international.com" maxCardinality="-1">
-			<predicate xsi:type="mrcm:RelationshipPredicate" uuid="41a928d8-be62-4a3f-a22d-f5969855de56" active="true" effectiveTime="2012-08-06T20:54:26.000+0000" author="obali@b2international.com">
-				<attribute xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="d50cd3cc-0d05-453e-9f9b-1fae9107140b" active="true" effectiveTime="2012-08-06T20:54:37.000+0000" author="obali@b2international.com" conceptId="42752001"/><!-- Due to -->
-				<range xsi:type="mrcm:CompositeConceptSetDefinition" uuid="2a51deb4-8332-42cc-931b-3a893c2c3d73" active="true" effectiveTime="2012-08-06T20:55:44.000+0000" author="obali@b2international.com">
-					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="1a89cfbe-5ee1-44de-a590-744a7e3fb2ba" active="true" effectiveTime="2012-08-06T20:57:11.000+0000" author="obali@b2international.com" conceptId="404684003" inclusionType="DESCENDANT"/><!-- Clinical finding -->
-					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="77fc63cb-a34c-4b0f-94cc-fd3ea5058ad8" active="true" effectiveTime="2012-08-06T20:57:31.000+0000" author="obali@b2international.com" conceptId="272379006" inclusionType="DESCENDANT"/><!-- Event -->
-					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="ea243fc1-616b-4fb9-b682-a3f3055d0669" active="true" effectiveTime="2017-02-20T12:00:00.000+0000" author="kke@snomed.org" conceptId="71388002" inclusionType="DESCENDANT"/><!-- Procedure -->
+	<constraints xsi:type="mrcm:AttributeConstraint" uuid="4dae79b4-f413-410e-9dad-9d43b9c1b004" active="true" effectiveTime="2017-03-10T14:02:50.473+0000" author="kke@snomed.org">
+		<domain xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="ba45b6fe-ce7f-4333-9a79-2731cbacf16e" active="true" effectiveTime="2017-03-10T14:02:50.473+0000" author="kke@snomed.org" conceptId="404684003" inclusionType="DESCENDANT"/><!-- Clinical finding (finding) -->
+		<predicate xsi:type="mrcm:CardinalityPredicate" uuid="493cf5a9-520c-4c32-aa4c-ed44140d67fd" active="true" effectiveTime="2017-03-10T14:02:50.473+0000" author="kke@snomed.org" maxCardinality="-1">
+			<predicate xsi:type="mrcm:RelationshipPredicate" uuid="eb3ee183-a1be-4c03-a16b-1fdda38c2197" active="true" effectiveTime="2017-03-10T14:02:50.473+0000" author="kke@snomed.org">
+				<attribute xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="4bf1cf40-d4c9-4b8b-9d98-0749dcaf6c1a" active="true" effectiveTime="2017-03-10T14:02:50.473+0000" author="kke@snomed.org" conceptId="42752001"/><!-- Due to -->
+				<range xsi:type="mrcm:CompositeConceptSetDefinition" uuid="8e534002-9ec6-45c5-b2fa-deb0a929321e" active="true" effectiveTime="2017-03-10T14:02:50.473+0000" author="kke@snomed.org">
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="316adb45-446d-44f9-bdca-3477d613d423" active="true" effectiveTime="2017-03-10T14:02:50.473+0000" author="kke@snomed.org" conceptId="404684003" inclusionType="DESCENDANT"/><!-- Clinical finding -->
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="d48d53cb-413a-4b9b-9146-92480ce14438" active="true" effectiveTime="2017-03-10T14:02:50.473+0000" author="kke@snomed.org" conceptId="272379006" inclusionType="DESCENDANT"/><!-- Event -->
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="122445b5-422a-4b7f-9784-9e014bf1c9a5" active="true" effectiveTime="2017-03-10T14:02:50.473+0000" author="kke@snomed.org" conceptId="71388002" inclusionType="DESCENDANT"/><!-- Procedure -->
 				</range>
 			</predicate>
 		</predicate>
