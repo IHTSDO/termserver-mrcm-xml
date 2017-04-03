@@ -989,4 +989,14 @@
 		</predicate>
 	</constraints>
 
+	<constraints xsi:type="mrcm:AttributeConstraint" uuid="5ea5c84d-a363-4c36-b606-bc6b4e84fb91" active="true" effectiveTime="2017-04-03T10:31:56.913+0100" author="kke@snomed.org">
+		<domain xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="ac12bff3-380a-4f45-af29-b984b84a94c2" active="true" effectiveTime="2017-04-03T10:31:56.913+0100" author="kke@snomed.org" conceptId="105590001" inclusionType="SELF_OR_DESCENDANT"/><!--Substance (substance)-->
+		<predicate xsi:type="mrcm:CardinalityPredicate" uuid="a2ababaa-1896-4b60-918d-33469e48a16c" active="true" effectiveTime="2017-04-03T10:31:56.913+0100" author="kke@snomed.org" maxCardinality="-1">
+			<predicate xsi:type="mrcm:RelationshipPredicate" uuid="4eaa0f41-12fc-458b-80bc-93b50c12e084" active="true" effectiveTime="2017-04-03T10:31:56.913+0100" author="kke@snomed.org">
+				<attribute xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="71bdd8b4-0c3e-4836-9a76-54b2bff57173" active="true" effectiveTime="2017-04-03T10:31:56.913+0100" author="kke@snomed.org" conceptId="726542003"/><!--Has disposition (attribute)-->
+				<range xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="9f9239da-d8da-418e-960a-03fb8c98e69f" active="true" effectiveTime="2017-04-03T10:31:56.913+0100" author="kke@snomed.org" conceptId="726711005" inclusionType="DESCENDANT"/><!--Disposition of substance (qualifier value)-->
+			</predicate>
+		</predicate>
+	</constraints>
+
 </mrcm:ConceptModel>
