@@ -725,15 +725,15 @@
 			</predicate>
 		</predicate>
 	</constraints>
-	<constraints xsi:type="mrcm:AttributeConstraint" uuid="4dae79b4-f413-410e-9dad-9d43b9c1b004" active="true" effectiveTime="2017-03-10T14:02:50.473+0000" author="kke@snomed.org">
-		<domain xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="ba45b6fe-ce7f-4333-9a79-2731cbacf16e" active="true" effectiveTime="2017-03-10T14:02:50.473+0000" author="kke@snomed.org" conceptId="404684003" inclusionType="DESCENDANT"/><!-- Clinical finding (finding) -->
-		<predicate xsi:type="mrcm:CardinalityPredicate" uuid="493cf5a9-520c-4c32-aa4c-ed44140d67fd" active="true" effectiveTime="2017-03-10T14:02:50.473+0000" author="kke@snomed.org" maxCardinality="-1">
-			<predicate xsi:type="mrcm:RelationshipPredicate" uuid="eb3ee183-a1be-4c03-a16b-1fdda38c2197" active="true" effectiveTime="2017-03-10T14:02:50.473+0000" author="kke@snomed.org">
-				<attribute xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="4bf1cf40-d4c9-4b8b-9d98-0749dcaf6c1a" active="true" effectiveTime="2017-03-10T14:02:50.473+0000" author="kke@snomed.org" conceptId="42752001"/><!-- Due to -->
-				<range xsi:type="mrcm:CompositeConceptSetDefinition" uuid="8e534002-9ec6-45c5-b2fa-deb0a929321e" active="true" effectiveTime="2017-03-10T14:02:50.473+0000" author="kke@snomed.org">
-					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="316adb45-446d-44f9-bdca-3477d613d423" active="true" effectiveTime="2017-03-10T14:02:50.473+0000" author="kke@snomed.org" conceptId="404684003" inclusionType="DESCENDANT"/><!-- Clinical finding -->
-					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="d48d53cb-413a-4b9b-9146-92480ce14438" active="true" effectiveTime="2017-03-10T14:02:50.473+0000" author="kke@snomed.org" conceptId="272379006" inclusionType="DESCENDANT"/><!-- Event -->
-					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="122445b5-422a-4b7f-9784-9e014bf1c9a5" active="true" effectiveTime="2017-03-10T14:02:50.473+0000" author="kke@snomed.org" conceptId="71388002" inclusionType="DESCENDANT"/><!-- Procedure -->
+	<constraints xsi:type="mrcm:AttributeConstraint" uuid="de3be1f9-3ca6-4e1d-baeb-f99212de5d73" active="true" effectiveTime="2017-07-12T12:35:42.093+0100" author="kke@snomed.org">
+		<domain xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="0a87ab9d-e42a-4166-a01e-dddfd684d9d4" active="true" effectiveTime="2017-07-12T12:35:42.093+0100" author="kke@snomed.org" conceptId="404684003" inclusionType="DESCENDANT"/><!-- Clinical finding (finding) -->
+		<predicate xsi:type="mrcm:CardinalityPredicate" uuid="12117d9a-5e75-42f7-a48a-caa71b2945b2" active="true" effectiveTime="2017-07-12T12:35:42.093+0100" author="kke@snomed.org" maxCardinality="-1">
+			<predicate xsi:type="mrcm:RelationshipPredicate" uuid="b81ce533-349a-4f98-9fd8-1987c31b872a" active="true" effectiveTime="2017-07-12T12:35:42.093+0100" author="kke@snomed.org">
+				<attribute xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="f8021ac7-a3f1-479a-a1ad-7604398797c9" active="true" effectiveTime="2017-07-12T12:35:42.093+0100" author="kke@snomed.org" conceptId="42752001"/><!-- Due to -->
+				<range xsi:type="mrcm:CompositeConceptSetDefinition" uuid="596acdec-4041-4c15-8463-020e292abca1" active="true" effectiveTime="2017-07-12T12:35:42.093+0100" author="kke@snomed.org">
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="547d77c1-6069-4b86-9262-785f813cb99e" active="true" effectiveTime="2017-07-12T12:35:42.093+0100" author="kke@snomed.org" conceptId="404684003" inclusionType="DESCENDANT"/><!-- Clinical finding -->
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="d94b1ac4-e5ca-4d40-8659-ebbc2767ae2d" active="true" effectiveTime="2017-07-12T12:35:42.093+0100" author="kke@snomed.org" conceptId="272379006" inclusionType="DESCENDANT"/><!-- Event -->
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="8d9ae238-4008-4094-bb01-7b3ad99cfb36" active="true" effectiveTime="2017-07-12T12:35:42.093+0100" author="kke@snomed.org" conceptId="71388002" inclusionType="SELF_OR_DESCENDANT"/><!-- Procedure -->
 				</range>
 			</predicate>
 		</predicate>
