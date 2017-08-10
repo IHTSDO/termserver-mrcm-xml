@@ -806,16 +806,6 @@
 		</predicate>
 	</constraints>
 
-	<constraints xsi:type="mrcm:AttributeConstraint" uuid="65326e7f-6de5-41c1-9e58-f2759e45e430" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org">
-		<domain xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="352331bd-4b03-46fa-9509-8c9fdb2f5c1c" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="363787002" inclusionType="DESCENDANT"/><!-- Observable entity -->
-		<predicate xsi:type="mrcm:CardinalityPredicate" uuid="437229e5-3ea4-44d1-889f-b2fb19bb606c" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" maxCardinality="-1">
-			<predicate xsi:type="mrcm:RelationshipPredicate" uuid="bbcacbdc-619e-4ad4-aa95-1b636623fa90" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org">
-				<attribute xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="e6dfc567-36a7-4e66-a2bc-180b58fba58e" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="704318007"/><!-- Property Type -->
-				<range xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="a2af0e65-f60a-450c-86b2-5dd13ae109dd" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="118598001" inclusionType="SELF_OR_DESCENDANT"/><!-- Measurement property -->
-			</predicate>
-		</predicate>
-	</constraints>
-
 	<constraints xsi:type="mrcm:AttributeConstraint" uuid="fe822df9-3185-4e55-9599-4c6bdfa26aaa" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org">
 		<domain xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="b3556253-4888-4854-8ef6-02bf94bfa7cc" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="363787002" inclusionType="DESCENDANT"/><!-- Observable entity -->
 		<predicate xsi:type="mrcm:CardinalityPredicate" uuid="d7e0ab98-a533-4474-9259-3d350a37beb8" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" maxCardinality="-1">
