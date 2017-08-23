@@ -255,13 +255,13 @@
 			</predicate>
 		</predicate>
 	</constraints>
-	<constraints xsi:type="mrcm:AttributeConstraint" uuid="4034b2c1-a226-43ed-a42b-73b27ffc63d0" active="true" effectiveTime="2012-08-08T20:47:11.000+0000" author="obali@b2international.com">
-		<domain xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="f847dc10-14ad-4dd6-a75b-680dc456eb15" active="true" effectiveTime="2012-08-08T20:18:09.000+0000" author="obali@b2international.com" conceptId="71388002" inclusionType="DESCENDANT"/>
-		<predicate xsi:type="mrcm:CardinalityPredicate" uuid="dceb6bb4-6854-486f-a65a-4a8e05e690ba" active="true" effectiveTime="2012-08-08T20:18:35.000+0000" author="obali@b2international.com" maxCardinality="-1" groupRule="ALL_GROUPS">
-			<predicate xsi:type="mrcm:RelationshipPredicate" uuid="2eaa78ae-a112-459f-b600-36e07407e2ee" active="true" effectiveTime="2012-08-08T20:18:35.000+0000" author="obali@b2international.com">
-				<attribute xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="8631e14f-62e6-465c-a337-0e13b9e468c5" active="true" effectiveTime="2012-08-08T20:19:03.000+0000" author="obali@b2international.com" conceptId="370130000"/>
-				<range xsi:type="mrcm:CompositeConceptSetDefinition" uuid="f9d10608-6ca7-49b0-94bb-c7cf2a463d68" active="true" effectiveTime="2012-08-08T20:19:24.000+0000" author="obali@b2international.com">
-					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="7cc9ef74-6258-4f7e-a901-31fff7cc8f03" active="true" effectiveTime="2012-08-08T20:19:28.000+0000" author="obali@b2international.com" conceptId="118598001" inclusionType="DESCENDANT"/>
+	<constraints xsi:type="mrcm:AttributeConstraint" uuid="ce6d2210-34c7-4f9c-82d4-f5fa330dc239" active="true" effectiveTime="2017-08-23T20:01:48.381+0100" author="kke@snomed.org">
+		<domain xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="4636d373-3d78-48ed-881d-09e47a5128c6" active="true" effectiveTime="2017-08-23T20:01:48.381+0100" author="kke@snomed.org" conceptId="386053000" inclusionType="SELF_OR_DESCENDANT"/><!-- Evaluation procedure (procedure) -->
+		<predicate xsi:type="mrcm:CardinalityPredicate" uuid="fc5c848f-859b-4e0e-a7c1-23394dc5e1ce" active="true" effectiveTime="2017-08-23T20:01:48.381+0100" author="kke@snomed.org" maxCardinality="-1" groupRule="ALL_GROUPS">
+			<predicate xsi:type="mrcm:RelationshipPredicate" uuid="3594bd6e-2a03-4d63-8779-e0b8f84ee769" active="true" effectiveTime="2017-08-23T20:01:48.381+0100" author="kke@snomed.org">
+				<attribute xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="bc56696b-4614-4659-99df-c42553892662" active="true" effectiveTime="2017-08-23T20:01:48.381+0100" author="kke@snomed.org" conceptId="370130000"/><!-- Property -->
+				<range xsi:type="mrcm:CompositeConceptSetDefinition" uuid="352757b6-41e6-4d85-886a-a756213a97cb" active="true" effectiveTime="2017-08-23T20:01:48.381+0100" author="kke@snomed.org">
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="720a6ae3-8284-4239-94ca-4651f249c1a5" active="true" effectiveTime="2017-08-23T20:01:48.381+0100" author="kke@snomed.org" conceptId="118598001" inclusionType="SELF_OR_DESCENDANT"/><!--Property of measurement (qualifier value)-->
 				</range>
 			</predicate>
 		</predicate>
