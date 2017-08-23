@@ -1074,4 +1074,16 @@
 		</predicate>
 	</constraints>
 
+	<constraints xsi:type="mrcm:AttributeConstraint" uuid="6088e985-86a7-4ca0-879b-73abecfe0602" active="true" effectiveTime="2017-08-23T11:28:19.169+0100" author="kke@snomed.org">
+		<domain xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="9edef820-906f-4d8d-9c53-7f84d9d2f4f0" active="true" effectiveTime="2017-08-23T11:28:19.169+0100" author="kke@snomed.org" conceptId="736478001" inclusionType="SELF_OR_DESCENDANT"/><!-- Basic dose form (basic dose form) -->
+		<predicate xsi:type="mrcm:CardinalityPredicate" uuid="a4418040-e465-4726-8275-fb3589602be9" active="true" effectiveTime="2017-08-23T11:28:19.169+0100" author="kke@snomed.org" maxCardinality="-1">
+			<predicate xsi:type="mrcm:RelationshipPredicate" uuid="1e4741b9-bd25-46b5-82f6-20f186da54d6" active="true" effectiveTime="2017-08-23T11:28:19.169+0100" author="kke@snomed.org">
+				<attribute xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="63453270-ee47-4cb3-8dbe-328f6fb96608" active="true" effectiveTime="2017-08-23T11:28:19.169+0100" author="kke@snomed.org" conceptId="736518005"/><!-- Has state of matter (attribute) -->
+				<range xsi:type="mrcm:CompositeConceptSetDefinition" uuid="bf941b6b-b3cc-4ac7-9095-1d2db98919bf" active="true" effectiveTime="2017-08-23T11:28:19.169+0100" author="kke@snomed.org">
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="1bb5aeda-cbd1-4d49-8322-3b25a2686865" active="true" effectiveTime="2017-08-23T11:28:19.169+0100" author="kke@snomed.org" conceptId="736471007" inclusionType="DESCENDANT"/><!-- State of matter (state of matter) -->
+				</range>
+			</predicate>
+		</predicate>
+	</constraints>
+
 </mrcm:ConceptModel>
