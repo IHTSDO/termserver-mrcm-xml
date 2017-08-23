@@ -1086,4 +1086,16 @@
 		</predicate>
 	</constraints>
 
+	<constraints xsi:type="mrcm:AttributeConstraint" uuid="ce17808e-488f-42ab-a45b-a4fc82f3b790" active="true" effectiveTime="2017-08-23T11:34:45.450+0100" author="kke@snomed.org">
+		<domain xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="ea41259f-f0a4-466e-af9e-2476251d8be5" active="true" effectiveTime="2017-08-23T11:34:45.450+0100" author="kke@snomed.org" conceptId="736542009" inclusionType="SELF_OR_DESCENDANT"/><!--Pharmaceutical dose form (dose form)-->
+		<predicate xsi:type="mrcm:CardinalityPredicate" uuid="6b8a2670-d141-4424-860e-7646b521905b" active="true" effectiveTime="2017-08-23T11:34:45.450+0100" author="kke@snomed.org" maxCardinality="-1">
+			<predicate xsi:type="mrcm:RelationshipPredicate" uuid="10bbea42-8064-41f9-8e38-947a5e65f263" active="true" effectiveTime="2017-08-23T11:34:45.450+0100" author="kke@snomed.org">
+				<attribute xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="9857ebf4-a422-42e8-bbe3-17e10909a1db" active="true" effectiveTime="2017-08-23T11:34:45.450+0100" author="kke@snomed.org" conceptId="736474004"/><!--Has dose form intended site (attribute)-->
+				<range xsi:type="mrcm:CompositeConceptSetDefinition" uuid="0e63c862-9000-4840-aa41-1b005d9af28a" active="true" effectiveTime="2017-08-23T11:34:45.450+0100" author="kke@snomed.org">
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="0bff835a-cca9-4a15-bce3-5a9c04d7817e" active="true" effectiveTime="2017-08-23T11:34:45.450+0100" author="kke@snomed.org" conceptId="736479009" inclusionType="DESCENDANT"/><!--Dose form intended site (intended site)-->
+				</range>
+			</predicate>
+		</predicate>
+	</constraints>
+
 </mrcm:ConceptModel>
