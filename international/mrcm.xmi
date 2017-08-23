@@ -497,16 +497,19 @@
 			<predicate xsi:type="mrcm:DescriptionPredicate" uuid="8fd09850-2f6e-471f-a0c1-0b8fd74a6f85" active="true" effectiveTime="2012-05-07T18:30:44.000+0000" author="obali@b2international.com" typeId="900000000000003001"/>
 		</predicate>
 	</constraints>
-	<constraints xsi:type="mrcm:AttributeConstraint" uuid="380046c3-e712-4532-8f38-c9347447aeed" active="true" effectiveTime="2012-08-08T20:24:35.000+0000" author="obali@b2international.com">
-		<domain xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="659c27e2-347a-49e9-96cb-9635d786be83" active="true" effectiveTime="2012-08-08T20:18:09.000+0000" author="obali@b2international.com" conceptId="71388002" inclusionType="DESCENDANT"/>
-		<predicate xsi:type="mrcm:CardinalityPredicate" uuid="d04bdc82-dccd-4607-9798-ba1338706412" active="true" effectiveTime="2012-08-08T20:18:35.000+0000" author="obali@b2international.com" maxCardinality="-1" groupRule="ALL_GROUPS">
-			<predicate xsi:type="mrcm:RelationshipPredicate" uuid="754bfd7f-8406-44f4-bce7-fd81c5680139" active="true" effectiveTime="2012-08-08T20:18:35.000+0000" author="obali@b2international.com">
-				<attribute xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="781f2123-62a7-46fc-9550-a3aa68084bb8" active="true" effectiveTime="2012-08-08T20:19:03.000+0000" author="obali@b2international.com" conceptId="246093002"/><!-- Component -->
-				<range xsi:type="mrcm:CompositeConceptSetDefinition" uuid="75539565-055f-46f2-b31d-6246b0cf8ca4" active="true" effectiveTime="2012-08-08T20:19:24.000+0000" author="obali@b2international.com">
-					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="46b0f17b-e29b-404e-b6db-3febce96c36b" active="true" effectiveTime="2012-08-08T20:19:28.000+0000" author="obali@b2international.com" conceptId="105590001" inclusionType="DESCENDANT"/>
-					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="334db975-bc58-47fe-a0b7-cdc33b5bd9f2" active="true" effectiveTime="2012-08-08T20:25:17.000+0000" author="obali@b2international.com" conceptId="363787002" inclusionType="DESCENDANT"/>
-					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="fa0211a1-e2ef-45e6-88a3-3d5049d1025e" active="true" effectiveTime="2012-08-08T20:25:32.000+0000" author="obali@b2international.com" conceptId="4421005" inclusionType="DESCENDANT"/>
-					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="15fe695c-cc21-49e2-b7d9-57b8b8061fa9" active="true" effectiveTime="2012-08-08T20:44:35.000+0000" author="obali@b2international.com" conceptId="410607006" inclusionType="DESCENDANT"/>
+	<constraints xsi:type="mrcm:AttributeConstraint" uuid="69bd8182-4931-4681-97d7-121e35dd229f" active="true" effectiveTime="2017-08-23T19:53:58.995+0100" author="kke@snomed.org">
+		<domain xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="ab60dbfc-98ad-49ac-af81-7a9a39fc4032" active="true" effectiveTime="2017-08-23T19:53:58.995+0100" author="kke@snomed.org" conceptId="386053000" inclusionType="DESCENDANT"/><!--Evaluation procedure (procedure)-->
+		<predicate xsi:type="mrcm:CardinalityPredicate" uuid="c691f666-eea8-44d0-b710-8941cf2b853d" active="true" effectiveTime="2017-08-23T19:53:58.995+0100" author="kke@snomed.org" maxCardinality="-1" groupRule="ALL_GROUPS">
+			<predicate xsi:type="mrcm:RelationshipPredicate" uuid="f2de340d-84c6-4cca-a643-5054a7f1ce53" active="true" effectiveTime="2017-08-23T19:53:58.995+0100" author="kke@snomed.org">
+				<attribute xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="3b3ff83e-0d66-49b5-b2c7-ac0f2bff2f09" active="true" effectiveTime="2017-08-23T19:53:58.995+0100" author="kke@snomed.org" conceptId="246093002"/><!-- Component -->
+				<range xsi:type="mrcm:CompositeConceptSetDefinition" uuid="de14caf2-3637-442c-b822-e8f81eca02ee" active="true" effectiveTime="2017-08-23T19:53:58.995+0100" author="kke@snomed.org">
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="593718ed-7ea1-40fd-a380-06a51e89ea18" active="true" effectiveTime="2017-08-23T19:53:58.995+0100" author="kke@snomed.org" conceptId="123037004" inclusionType="SELF_OR_DESCENDANT"/><!-- Body structure -->
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="7ffc6c6b-9686-46c4-9283-23169f5ff4fa" active="true" effectiveTime="2017-08-23T19:53:58.995+0100" author="kke@snomed.org" conceptId="410607006" inclusionType="SELF_OR_DESCENDANT"/><!-- Organism -->
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="2ce62f7b-2982-4774-be94-138b079074c0" active="true" effectiveTime="2017-08-23T19:53:58.995+0100" author="kke@snomed.org" conceptId="105590001" inclusionType="SELF_OR_DESCENDANT"/><!-- Substance -->
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="716e96e6-945d-48d5-b7cc-1e394a46c3be" active="true" effectiveTime="2017-08-23T19:53:58.995+0100" author="kke@snomed.org" conceptId="123038009" inclusionType="SELF_OR_DESCENDANT"/><!-- Specimen -->
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="a7a5169f-9629-4024-8f82-b61e4c0d2be1" active="true" effectiveTime="2017-08-23T19:53:58.995+0100" author="kke@snomed.org" conceptId="260787004" inclusionType="SELF_OR_DESCENDANT"/><!-- Physical object -->
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="8f32d080-cc30-4785-994c-194d5adc748e" active="true" effectiveTime="2017-08-23T19:53:58.995+0100" author="kke@snomed.org" conceptId="373873005" inclusionType="SELF_OR_DESCENDANT"/><!-- Pharmaceutical / biologic product -->
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="46e2001f-62c9-47db-8012-25c7ef459332" active="true" effectiveTime="2017-08-23T19:53:58.995+0100" author="kke@snomed.org" conceptId="419891008" inclusionType="SELF_OR_DESCENDANT"/><!-- Record artifact -->
 				</range>
 			</predicate>
 		</predicate>
