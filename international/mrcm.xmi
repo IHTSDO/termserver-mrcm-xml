@@ -1076,6 +1076,18 @@
 		</predicate>
 	</constraints>
 
+	<constraints xsi:type="mrcm:AttributeConstraint" uuid="8e56b55f-d9b0-48e8-b659-024e888ace41" active="true" effectiveTime="2017-08-23T14:30:15.847+0100" author="kke@snomed.org">
+		<domain xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="f9785e69-04b8-4384-8a7d-1f304e766e8e" active="true" effectiveTime="2017-08-23T14:30:15.847+0100" author="kke@snomed.org" conceptId="363787002" inclusionType="SELF_OR_DESCENDANT"/><!-- Observable entity (observable entity) -->
+		<predicate xsi:type="mrcm:CardinalityPredicate" uuid="7b9cba8e-198b-4d5b-80a3-0cc332a9ce4d" active="true" effectiveTime="2017-08-23T14:30:15.847+0100" author="kke@snomed.org" maxCardinality="-1" groupRule="ALL_GROUPS">
+			<predicate xsi:type="mrcm:RelationshipPredicate" uuid="d7887d58-19d7-4eae-8593-4233f4ca76b1" active="true" effectiveTime="2017-08-23T14:30:15.847+0100" author="kke@snomed.org">
+				<attribute xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="38d35fa7-218a-4ac5-bd5e-4227f3154362" active="true" effectiveTime="2017-08-23T14:30:15.847+0100" author="kke@snomed.org" conceptId="370130000"/><!-- Property -->
+				<range xsi:type="mrcm:CompositeConceptSetDefinition" uuid="38d01c4c-0347-4d15-abb3-b65a88353217" active="true" effectiveTime="2017-08-23T14:30:15.847+0100" author="kke@snomed.org">
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="748e627c-ad9a-402b-a2a1-a4189eb6df06" active="true" effectiveTime="2017-08-23T14:30:15.847+0100" author="kke@snomed.org" conceptId="118598001" inclusionType="SELF_OR_DESCENDANT"/><!--Property of measurement (qualifier value)-->
+				</range>
+			</predicate>
+		</predicate>
+	</constraints>
+
 	<constraints xsi:type="mrcm:AttributeConstraint" uuid="5ea5c84d-a363-4c36-b606-bc6b4e84fb91" active="true" effectiveTime="2017-04-03T10:31:56.913+0100" author="kke@snomed.org">
 		<domain xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="ac12bff3-380a-4f45-af29-b984b84a94c2" active="true" effectiveTime="2017-04-03T10:31:56.913+0100" author="kke@snomed.org" conceptId="105590001" inclusionType="SELF_OR_DESCENDANT"/><!--Substance (substance)-->
 		<predicate xsi:type="mrcm:CardinalityPredicate" uuid="a2ababaa-1896-4b60-918d-33469e48a16c" active="true" effectiveTime="2017-04-03T10:31:56.913+0100" author="kke@snomed.org" maxCardinality="-1">
