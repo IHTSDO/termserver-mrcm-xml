@@ -500,6 +500,16 @@
 			</predicate>
 		</predicate>
 	</constraints>
+	<!-- APDS-399 -->
+	<constraints xsi:type="mrcm:AttributeConstraint" uuid="d05a1bef-5c18-4ffd-8177-7876b3c2511d" active="true" effectiveTime="2017-09-13T13:49:19.439+0100" author="kke@snomed.org">
+		<domain xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="725c7f9c-1477-4d90-b192-106581394e6d" active="true" effectiveTime="2017-09-13T13:49:19.439+0100" author="kke@snomed.org" conceptId="373873005" inclusionType="SELF_OR_DESCENDANT"/><!--Pharmaceutical / biologic product (product)-->
+		<predicate xsi:type="mrcm:CardinalityPredicate" uuid="ec8406ab-c47a-4157-8556-3b27f2cd4198" active="true" effectiveTime="2017-09-13T13:49:19.439+0100" author="kke@snomed.org" maxCardinality="-1">
+			<predicate xsi:type="mrcm:RelationshipPredicate" uuid="af011d81-d37e-4727-9dca-4c319762def0" active="true" effectiveTime="2017-09-13T13:49:19.439+0100" author="kke@snomed.org">
+				<attribute xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="e43226a2-2a66-47a3-adb1-17b93654bd93" active="true" effectiveTime="2017-09-13T13:49:19.439+0100" author="kke@snomed.org" conceptId="733723002"/><!--Has concentration strength denominator value-->
+				<range xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="03876e24-8464-401f-bb1b-659600e0b759" active="true" effectiveTime="2017-09-13T13:49:19.439+0100" author="kke@snomed.org" conceptId="260299005" inclusionType="DESCENDANT"/><!--Number (qualifier value)-->
+			</predicate>
+		</predicate>
+	</constraints>
 	<constraints xsi:type="mrcm:AttributeConstraint" uuid="a13eb60b-0b6a-449e-93b1-88c25b2883b2" active="true" effectiveTime="2012-08-08T20:50:47.000+0000" author="obali@b2international.com">
 		<domain xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="f52250d4-9c77-4b1e-b385-8f3e6de63c8f" active="true" effectiveTime="2012-08-08T20:18:09.000+0000" author="obali@b2international.com" conceptId="71388002" inclusionType="DESCENDANT"/>
 		<predicate xsi:type="mrcm:CardinalityPredicate" uuid="4482c72a-444c-4863-b2fa-a7ec961271cd" active="true" effectiveTime="2012-08-08T20:18:35.000+0000" author="obali@b2international.com" maxCardinality="-1" groupRule="ALL_GROUPS">
