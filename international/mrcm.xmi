@@ -896,15 +896,18 @@
 		</predicate>
 	</constraints>
 
-	<constraints xsi:type="mrcm:AttributeConstraint" uuid="8ed675dc-7c57-4c0a-991e-81104fc71d0a" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org">
-		<domain xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="b9e77d7c-65d8-419b-a07e-76c125c329e4" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="363787002" inclusionType="DESCENDANT"/><!-- Observable entity -->
-		<predicate xsi:type="mrcm:CardinalityPredicate" uuid="280626d3-b8e4-41cf-8c82-263410c03087" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" maxCardinality="-1">
-			<predicate xsi:type="mrcm:RelationshipPredicate" uuid="9e9e4063-9563-4c5a-aa7f-7576c150f561" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org">
-				<attribute xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="9403211d-2016-4bdf-b623-aa068f1ee2bc" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="704321009"/><!-- Characterizes -->
-				<range xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="6b3b2411-ea3a-451b-b9d3-436e6eb8026d" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="719982003" inclusionType="SELF_OR_DESCENDANT"/><!-- Process -->
-			</predicate>
-		</predicate>
-	</constraints>
+    <constraints xsi:type="mrcm:AttributeConstraint" uuid="f4820219-b8e4-485c-96fd-3ce985d15373" active="true" effectiveTime="2017-11-08T14:55:04.563+0000" author="kke@snomed.org">
+        <domain xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="9db869b1-62db-4d99-80bd-f906845a73c2" active="true" effectiveTime="2017-11-08T14:55:04.563+0000" author="kke@snomed.org" conceptId="363787002" inclusionType="DESCENDANT"/><!-- Observable entity -->
+        <predicate xsi:type="mrcm:CardinalityPredicate" uuid="7a3f15e9-2244-4064-a3c8-0330296b0dc4" active="true" effectiveTime="2017-11-08T14:55:04.563+0000" author="kke@snomed.org" maxCardinality="-1">
+            <predicate xsi:type="mrcm:RelationshipPredicate" uuid="a261c8a5-8eb6-4d53-a7eb-50a02c568f1e" active="true" effectiveTime="2017-11-08T14:55:04.563+0000" author="kke@snomed.org">
+                <attribute xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="c137b83e-7aba-4135-aeb0-489d55359054" active="true" effectiveTime="2017-11-08T14:55:04.563+0000" author="kke@snomed.org" conceptId="704321009"/><!-- Characterizes -->
+                <range xsi:type="mrcm:CompositeConceptSetDefinition" uuid="479da931-9efe-4dc5-a1ed-56a382da9885" active="true" effectiveTime="2017-11-08T14:55:04.563+0000" author="kke@snomed.org">
+                    <children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="4cfb86e9-4aa0-4304-9740-259574678c9d" active="true" effectiveTime="2017-11-08T14:55:04.563+0000" author="kke@snomed.org" conceptId="719982003" inclusionType="SELF_OR_DESCENDANT"/><!-- Process -->
+                    <children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="c789af35-a972-4647-9b55-2f3e0891c588" active="true" effectiveTime="2017-11-08T14:55:04.563+0000" author="kke@snomed.org" conceptId="71388002" inclusionType="SELF_OR_DESCENDANT"/><!-- Procedure -->
+                </range>
+            </predicate>
+        </predicate>
+    </constraints>
 
 	<constraints xsi:type="mrcm:AttributeConstraint" uuid="2f5f15f0-fcd6-474b-a7f9-546d34df206e" active="true" effectiveTime="2017-08-23T14:19:27.307+0100" author="kke@snomed.org">
 		<domain xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="d095ca3b-f0b9-489a-a4b1-907519b44a8e" active="true" effectiveTime="2017-08-23T14:19:27.307+0100" author="kke@snomed.org" conceptId="363787002" inclusionType="DESCENDANT"/><!-- Observable entity -->
