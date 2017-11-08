@@ -1144,6 +1144,16 @@
 		</predicate>
 	</constraints>
 
+    <constraints xsi:type="mrcm:AttributeConstraint" uuid="d330b503-bf52-4422-8df2-966fe88606f4" active="true" effectiveTime="2017-11-08T15:17:46.904+0000" author="kke@snomed.org">
+        <domain xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="fb63b65f-5583-45ac-b63a-149cb2db237d" active="true" effectiveTime="2017-11-08T15:17:46.904+0000" author="kke@snomed.org" conceptId="105590001" inclusionType="SELF_OR_DESCENDANT"/><!--Substance (substance)-->
+        <predicate xsi:type="mrcm:CardinalityPredicate" uuid="d78b6576-a01e-4c07-ab20-7816813c6c9c" active="true" effectiveTime="2017-11-08T15:17:46.904+0000" author="kke@snomed.org" maxCardinality="-1">
+            <predicate xsi:type="mrcm:RelationshipPredicate" uuid="b4ab5db1-c858-4a7a-844c-bf6e4e7accda" active="true" effectiveTime="2017-11-08T15:17:46.904+0000" author="kke@snomed.org">
+                <attribute xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="568cf8b3-8a94-4a40-9fa5-6d03c72bb710" active="true" effectiveTime="2017-11-08T15:17:46.904+0000" author="kke@snomed.org" conceptId="738774007"/><!--Is modification of (attribute)-->
+                <range xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="b9b4db74-580a-47c3-9b24-762564fd61a7" active="true" effectiveTime="2017-11-08T15:17:46.904+0000" author="kke@snomed.org" conceptId="105590001" inclusionType="SELF_OR_DESCENDANT"/><!--Substance (substance)-->
+            </predicate>
+        </predicate>
+    </constraints>
+
 	<constraints xsi:type="mrcm:AttributeConstraint" uuid="6088e985-86a7-4ca0-879b-73abecfe0602" active="true" effectiveTime="2017-08-23T11:28:19.169+0100" author="kke@snomed.org">
 		<domain xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="9edef820-906f-4d8d-9c53-7f84d9d2f4f0" active="true" effectiveTime="2017-08-23T11:28:19.169+0100" author="kke@snomed.org" conceptId="736478001" inclusionType="SELF_OR_DESCENDANT"/><!-- Basic dose form (basic dose form) -->
 		<predicate xsi:type="mrcm:CardinalityPredicate" uuid="a4418040-e465-4726-8275-fb3589602be9" active="true" effectiveTime="2017-08-23T11:28:19.169+0100" author="kke@snomed.org" maxCardinality="-1">
