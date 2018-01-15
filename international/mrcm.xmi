@@ -888,19 +888,20 @@
 		</predicate>
 	</constraints>
 
-	<constraints xsi:type="mrcm:AttributeConstraint" uuid="fe822df9-3185-4e55-9599-4c6bdfa26aaa" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org">
-		<domain xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="b3556253-4888-4854-8ef6-02bf94bfa7cc" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="363787002" inclusionType="DESCENDANT"/><!-- Observable entity -->
-		<predicate xsi:type="mrcm:CardinalityPredicate" uuid="d7e0ab98-a533-4474-9259-3d350a37beb8" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" maxCardinality="-1">
-			<predicate xsi:type="mrcm:RelationshipPredicate" uuid="c5465b9d-a06f-4006-a086-31ad336cd234" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org">
-				<attribute xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="ecf525f8-a4ba-4fb5-aed1-92b7e944cd9b" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="704319004"/><!-- Inheres in -->
-				<range xsi:type="mrcm:CompositeConceptSetDefinition" uuid="9d3b9b5b-ff76-4e4a-9afb-cdced20d8aaf" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org">
-					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="2758265c-4de4-480c-a039-0798823c79be" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="123037004" inclusionType="SELF_OR_DESCENDANT"/><!-- Body structure -->
-					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="07b49c80-a2c9-49da-8968-3c6a63a65e7d" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="410607006" inclusionType="SELF_OR_DESCENDANT"/><!-- Organism -->
-					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="8d0c663e-d77c-49b2-aaac-fa10ac01755a" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="105590001" inclusionType="SELF_OR_DESCENDANT"/><!-- Substance -->
-					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="062c454c-047d-4e64-a7d6-cb5c057a7009" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="123038009" inclusionType="SELF_OR_DESCENDANT"/><!-- Specimen -->
-					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="77b941e0-f5cc-4af6-83bc-af11c045ee1e" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="260787004" inclusionType="SELF_OR_DESCENDANT"/><!-- Physical object -->
-					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="e1157795-e5ae-4b10-b72e-2096cd347431" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="373873005" inclusionType="SELF_OR_DESCENDANT"/><!-- Pharmaceutical / biologic product -->
-					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="12d70f95-1ab3-47c1-a73e-6d010dacd2e9" active="true" effectiveTime="2016-08-31T12:00:00.000+0000" author="kke@ihtsdo.org" conceptId="419891008" inclusionType="SELF_OR_DESCENDANT"/><!-- Record artifact -->
+	<constraints xsi:type="mrcm:AttributeConstraint" uuid="ee1cc8ad-6922-4556-8236-7ef0e2777634" active="true" effectiveTime="2018-01-15T16:49:32.003+0000" author="kke@snomed.org">
+		<domain xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="2987b562-15ca-4df9-8c14-993ef9702496" active="true" effectiveTime="2018-01-15T16:49:32.003+0000" author="kke@snomed.org" conceptId="363787002" inclusionType="DESCENDANT"/><!-- Observable entity -->
+		<predicate xsi:type="mrcm:CardinalityPredicate" uuid="e3a23ac9-011f-4141-8b60-6625dfd521b5" active="true" effectiveTime="2018-01-15T16:49:32.003+0000" author="kke@snomed.org" maxCardinality="-1">
+			<predicate xsi:type="mrcm:RelationshipPredicate" uuid="30a90cdc-c5ac-4dd4-b3d6-6bd22fc993ed" active="true" effectiveTime="2018-01-15T16:49:32.003+0000" author="kke@snomed.org">
+				<attribute xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="e4fbfdea-badf-4682-b3bd-10655547abd1" active="true" effectiveTime="2018-01-15T16:49:32.003+0000" author="kke@snomed.org" conceptId="704319004"/><!-- Inheres in -->
+				<range xsi:type="mrcm:CompositeConceptSetDefinition" uuid="ddad2486-32dd-4932-a427-46aefdb27843" active="true" effectiveTime="2018-01-15T16:49:32.003+0000" author="kke@snomed.org">
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="704b619a-f7a0-4e54-ba45-2784f51d12c3" active="true" effectiveTime="2018-01-15T16:49:32.003+0000" author="kke@snomed.org" conceptId="123037004" inclusionType="SELF_OR_DESCENDANT"/><!-- Body structure -->
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="2cc5103a-81b6-4408-9c83-7e9c1961a313" active="true" effectiveTime="2018-01-15T16:49:32.003+0000" author="kke@snomed.org" conceptId="410607006" inclusionType="SELF_OR_DESCENDANT"/><!-- Organism -->
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="19787f1d-6046-4342-a809-9598f5c97815" active="true" effectiveTime="2018-01-15T16:49:32.003+0000" author="kke@snomed.org" conceptId="105590001" inclusionType="SELF_OR_DESCENDANT"/><!-- Substance -->
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="30c924b9-2d92-4ac4-8bf6-ede6c35cc435" active="true" effectiveTime="2018-01-15T16:49:32.003+0000" author="kke@snomed.org" conceptId="123038009" inclusionType="SELF_OR_DESCENDANT"/><!-- Specimen -->
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="175a02bf-3f65-4ef5-8625-b0f55e3ad92e" active="true" effectiveTime="2018-01-15T16:49:32.003+0000" author="kke@snomed.org" conceptId="260787004" inclusionType="SELF_OR_DESCENDANT"/><!-- Physical object -->
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="17b0ae5a-7aa4-401e-b944-b02340f1c7ed" active="true" effectiveTime="2018-01-15T16:49:32.003+0000" author="kke@snomed.org" conceptId="373873005" inclusionType="SELF_OR_DESCENDANT"/><!-- Pharmaceutical / biologic product -->
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="2af32651-7b7c-47d7-8bb9-a6bc0f8aa326" active="true" effectiveTime="2018-01-15T16:49:32.003+0000" author="kke@snomed.org" conceptId="419891008" inclusionType="SELF_OR_DESCENDANT"/><!-- Record artifact -->
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="ab20508f-a4dc-40c9-8911-32faa644986f" active="true" effectiveTime="2018-01-15T16:49:32.003+0000" author="kke@snomed.org" conceptId="125676002" inclusionType="SELF_OR_DESCENDANT"/><!--Person-->
 				</range>
 			</predicate>
 		</predicate>
