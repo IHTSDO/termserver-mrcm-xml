@@ -426,15 +426,6 @@
 			</predicate>
 		</predicate>
 	</constraints>
-	<constraints xsi:type="mrcm:AttributeConstraint" uuid="4fbc7700-e8fb-42e2-adf3-bfc24387d1c8" active="true" effectiveTime="2012-08-08T21:26:58.000+0000" author="obali@b2international.com">
-		<domain xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="769d48a4-9ef7-4c04-88ce-8d18b6a5fdaa" active="true" effectiveTime="2012-08-08T21:17:15.000+0000" author="obali@b2international.com" conceptId="373873005" inclusionType="DESCENDANT"/><!--Pharmaceutical / biologic product (product)-->
-		<predicate xsi:type="mrcm:CardinalityPredicate" uuid="0b9acc1f-19e1-4cfa-8e52-dab763d6f9d5" active="true" effectiveTime="2012-08-08T21:17:32.000+0000" author="obali@b2international.com" maxCardinality="1" groupRule="ALL_GROUPS">
-			<predicate xsi:type="mrcm:RelationshipPredicate" uuid="3f51b46b-b30e-4443-aa14-6cdbfff483fb" active="true" effectiveTime="2012-08-08T21:17:32.000+0000" author="obali@b2international.com">
-				<attribute xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="460f6449-e083-4eae-8acc-774e57fb3673" active="true" effectiveTime="2012-08-08T21:25:52.000+0000" author="obali@b2international.com" conceptId="411116001"/>
-				<range xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="3ab0d9d6-6d57-4398-b8fa-1ccf03858e98" active="true" effectiveTime="2012-08-08T21:26:26.000+0000" author="obali@b2international.com" conceptId="105904009" inclusionType="SELF_OR_DESCENDANT"/>
-			</predicate>
-		</predicate>
-	</constraints>
 	<constraints xsi:type="mrcm:AttributeConstraint" uuid="5771296e-bfec-44c3-ab8c-031e756b280c" active="true" effectiveTime="2017-04-03T10:38:28.678+0100" author="kke@snomed.org">
 		<domain xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="9cd20f57-8ead-479e-8f4c-e2b0e33d9b51" active="true" effectiveTime="2017-04-03T10:38:28.678+0100" author="kke@snomed.org" conceptId="373873005" inclusionType="SELF_OR_DESCENDANT"/><!--Pharmaceutical / biologic product (product)-->
 		<predicate xsi:type="mrcm:CardinalityPredicate" uuid="aec8fd9f-f949-4869-ab96-b8f97a717f7f" active="true" effectiveTime="2017-04-03T10:38:28.678+0100" author="kke@snomed.org" maxCardinality="-1">
