@@ -851,14 +851,15 @@
 			</predicate>
 		</predicate>
 	</constraints>
-	<constraints xsi:type="mrcm:AttributeConstraint" uuid="bb221d15-53af-4ddf-b51c-2a483658cc20" active="true" effectiveTime="2012-08-06T21:19:16.000+0000" author="obali@b2international.com">
-		<domain xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="7e027308-0977-4913-95f8-84bff4392765" active="true" effectiveTime="2012-08-06T20:53:56.000+0000" author="obali@b2international.com" conceptId="404684003" inclusionType="DESCENDANT"/><!-- Clinical finding (finding) -->
-		<predicate xsi:type="mrcm:CardinalityPredicate" uuid="345c605c-45c5-4142-a7ae-6e06d55fa852" active="true" effectiveTime="2012-08-06T20:54:26.000+0000" author="obali@b2international.com" maxCardinality="-1">
-			<predicate xsi:type="mrcm:RelationshipPredicate" uuid="1c1ec48d-4a46-4980-a893-fc696b55d511" active="true" effectiveTime="2012-08-06T20:54:26.000+0000" author="obali@b2international.com">
-				<attribute xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="ff60f0b5-488d-46eb-a8ec-ff32a2a201dd" active="true" effectiveTime="2012-08-06T20:54:37.000+0000" author="obali@b2international.com" conceptId="419066007"/>
-				<range xsi:type="mrcm:CompositeConceptSetDefinition" uuid="ad31ae6e-cc33-40e4-a380-a45635a7d257" active="true" effectiveTime="2012-08-06T20:55:44.000+0000" author="obali@b2international.com">
-					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="ae93cac1-143b-40fd-9d5d-461e1b5bac0a" active="true" effectiveTime="2012-08-06T20:57:11.000+0000" author="obali@b2international.com" conceptId="420158005" inclusionType="SELF_OR_DESCENDANT"/>
-					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="4c99f0a4-02fe-4105-b354-d969e7261d4b" active="true" effectiveTime="2012-08-06T20:57:31.000+0000" author="obali@b2international.com" conceptId="419358007" inclusionType="SELF_OR_DESCENDANT"/>
+	<constraints xsi:type="mrcm:AttributeConstraint" uuid="b871192a-7ee1-4cb8-9b40-3c8a7c3f8611" active="true" effectiveTime="2018-02-01T16:16:27.346+0000" author="kke@snomed.org">
+		<domain xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="d84ee738-3a45-41f9-8c42-214064fa6742" active="true" effectiveTime="2018-02-01T16:16:27.346+0000" author="kke@snomed.org" conceptId="404684003" inclusionType="DESCENDANT"/><!-- Clinical finding (finding) -->
+		<predicate xsi:type="mrcm:CardinalityPredicate" uuid="4ce53708-ca72-4fc2-8311-8f27fcde569e" active="true" effectiveTime="2018-02-01T16:16:27.346+0000" author="kke@snomed.org" maxCardinality="-1">
+			<predicate xsi:type="mrcm:RelationshipPredicate" uuid="9620ca10-f9ee-4f7e-b700-fc77e6231e28" active="true" effectiveTime="2018-02-01T16:16:27.346+0000" author="kke@snomed.org">
+				<attribute xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="401d78a9-1e37-4543-8a62-5d210fac8693" active="true" effectiveTime="2018-02-01T16:16:27.346+0000" author="kke@snomed.org" conceptId="419066007"/><!--Finding informer (attribute)-->
+				<range xsi:type="mrcm:CompositeConceptSetDefinition" uuid="29529b0a-eb92-4f69-9598-1f190494ba98" active="true" effectiveTime="2018-02-01T16:16:27.346+0000" author="kke@snomed.org">
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="b317f6f3-1601-4591-9ce5-81963d1c306a" active="true" effectiveTime="2018-02-01T16:16:27.346+0000" author="kke@snomed.org" conceptId="420158005" inclusionType="SELF_OR_DESCENDANT"/><!--Performer of method (person)-->
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="78d57527-ce7b-47de-b732-6795a1c3d834" active="true" effectiveTime="2018-02-01T16:16:27.346+0000" author="kke@snomed.org" conceptId="419358007" inclusionType="SELF_OR_DESCENDANT"/><!--Subject of record or other provider of history (person)-->
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="699a5f17-efd4-4334-b08f-ce6886980742" active="true" effectiveTime="2018-02-01T16:16:27.346+0000" author="kke@snomed.org" conceptId="444018008" inclusionType="SELF_OR_DESCENDANT"/><!--Person with characteristic related to subject of record (person)-->
 				</range>
 			</predicate>
 		</predicate>
