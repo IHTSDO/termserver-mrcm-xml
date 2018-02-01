@@ -713,18 +713,16 @@
 			</predicate>
 		</predicate>
 	</constraints>
-	<constraints xsi:type="mrcm:AttributeConstraint" uuid="e1a0ac07-39d5-4c46-9b67-90117003db40" active="true" effectiveTime="2012-08-06T20:59:43.000+0000" author="obali@b2international.com">
-		<domain xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="0c3e1a18-0a87-4491-96b9-f7c476313a3d" active="true" effectiveTime="2012-08-06T20:53:56.000+0000" author="obali@b2international.com" conceptId="404684003" inclusionType="DESCENDANT"/><!-- Clinical finding (finding) -->
-		<predicate xsi:type="mrcm:CardinalityPredicate" uuid="d695a0a2-fc90-4200-b4f5-8c137b066103" active="true" effectiveTime="2012-08-06T20:54:26.000+0000" author="obali@b2international.com" maxCardinality="-1">
-			<predicate xsi:type="mrcm:RelationshipPredicate" uuid="db9357ac-84d0-4c7e-9ab9-d736acd9978a" active="true" effectiveTime="2012-08-06T20:54:26.000+0000" author="obali@b2international.com">
-				<attribute xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="1b1ba87f-cf43-4d6e-99b8-d0846e1c6f25" active="true" effectiveTime="2012-08-06T20:54:37.000+0000" author="obali@b2international.com" conceptId="246075003"/>
-				<range xsi:type="mrcm:CompositeConceptSetDefinition" uuid="91d4d898-b2fd-44f8-b71a-34f2102f5d17" active="true" effectiveTime="2012-08-06T20:55:44.000+0000" author="obali@b2international.com">
-					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="dd599eed-fcae-4873-b66b-8f17dc660748" active="true" effectiveTime="2012-08-06T20:57:11.000+0000" author="obali@b2international.com" conceptId="410607006" inclusionType="SELF_OR_DESCENDANT"/>
-					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="880370af-3dc2-43b2-a4e3-2c9cd3cb9e2b" active="true" effectiveTime="2012-08-06T20:57:31.000+0000" author="obali@b2international.com" conceptId="105590001" inclusionType="SELF_OR_DESCENDANT"/>
-					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="555dce60-8d35-4021-b71e-d6406212f931" active="true" effectiveTime="2012-08-06T20:58:09.000+0000" author="obali@b2international.com" conceptId="260787004" inclusionType="SELF_OR_DESCENDANT"/>
-					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="24c464ee-fcd3-44ba-a109-128a77b22ba2" active="true" effectiveTime="2012-08-06T20:58:24.000+0000" author="obali@b2international.com" conceptId="78621006" inclusionType="SELF_OR_DESCENDANT"/>
-					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="563d7cfd-90d3-4cec-92e1-eb700c94e161" active="true" effectiveTime="2012-08-06T20:58:42.000+0000" author="obali@b2international.com" conceptId="373873005" inclusionType="SELF_OR_DESCENDANT"/>
-					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="903bdef0-3568-4fa7-9f50-d04b3920d1db" active="true" effectiveTime="2012-08-06T20:59:07.000+0000" author="obali@b2international.com" conceptId="138875005"/>
+	<constraints xsi:type="mrcm:AttributeConstraint" uuid="60096d3d-092d-4508-a1d5-d9e5fbad7c8e" active="true" effectiveTime="2018-02-01T15:31:42.643+0000" author="kke@snomed.org">
+		<domain xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="8e4203a7-e53a-48a9-b4cd-943975c787c7" active="true" effectiveTime="2018-02-01T15:31:42.643+0000" author="kke@snomed.org" conceptId="404684003" inclusionType="DESCENDANT"/><!-- Clinical finding (finding) -->
+		<predicate xsi:type="mrcm:CardinalityPredicate" uuid="14d56535-58c1-4723-ad2b-d04bab7dad8e" active="true" effectiveTime="2018-02-01T15:31:42.643+0000" author="kke@snomed.org" maxCardinality="-1">
+			<predicate xsi:type="mrcm:RelationshipPredicate" uuid="39beb0b7-efe7-40cb-9fd9-06d71acc4a24" active="true" effectiveTime="2018-02-01T15:31:42.643+0000" author="kke@snomed.org">
+				<attribute xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="1c085119-d324-4b82-bb19-7abf3a4aa6e7" active="true" effectiveTime="2018-02-01T15:31:42.643+0000" author="kke@snomed.org" conceptId="246075003"/><!-- Causative agent (attribute) -->
+				<range xsi:type="mrcm:CompositeConceptSetDefinition" uuid="0c2c78f0-a5a2-41e9-a9ff-b0fcea3d8e7a" active="true" effectiveTime="2018-02-01T15:31:42.643+0000" author="kke@snomed.org">
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="6b011209-3feb-418c-be40-9b5fbe8ca417" active="true" effectiveTime="2018-02-01T15:31:42.643+0000" author="kke@snomed.org" conceptId="410607006" inclusionType="SELF_OR_DESCENDANT"/><!--Organism (organism)-->
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="70de5c9d-785b-4991-a123-4b7788952b6b" active="true" effectiveTime="2018-02-01T15:31:42.643+0000" author="kke@snomed.org" conceptId="105590001" inclusionType="SELF_OR_DESCENDANT"/><!--Substance (substance)-->
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="623233f0-1129-4e22-8c89-6e7f42ae3b1d" active="true" effectiveTime="2018-02-01T15:31:42.643+0000" author="kke@snomed.org" conceptId="260787004" inclusionType="SELF_OR_DESCENDANT"/><!--Physical object (physical object)-->
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="b5dad6fa-dfd8-4a49-a61c-8daa60108388" active="true" effectiveTime="2018-02-01T15:31:42.643+0000" author="kke@snomed.org" conceptId="78621006" inclusionType="SELF_OR_DESCENDANT"/><!--Physical force (physical force)-->
 				</range>
 			</predicate>
 		</predicate>
