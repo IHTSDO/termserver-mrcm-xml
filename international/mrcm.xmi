@@ -460,12 +460,12 @@
 			</predicate>
 		</predicate>
 	</constraints>
-	<constraints xsi:type="mrcm:AttributeConstraint" uuid="80e25bc0-2570-44a3-bfee-eb986b9933da" active="true" effectiveTime="2017-04-03T10:47:14.948+0100" author="kke@snomed.org">
-		<domain xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="10b22d65-a01b-4cf8-8f48-ff6ea6d91cd3" active="true" effectiveTime="2017-04-03T10:47:14.948+0100" author="kke@snomed.org" conceptId="373873005" inclusionType="SELF_OR_DESCENDANT"/><!--Pharmaceutical / biologic product (product)-->
-		<predicate xsi:type="mrcm:CardinalityPredicate" uuid="60d43def-13b0-4afc-90ef-65652b0aa1f5" active="true" effectiveTime="2017-04-03T10:47:14.948+0100" author="kke@snomed.org" maxCardinality="-1">
-			<predicate xsi:type="mrcm:RelationshipPredicate" uuid="05ad4395-1d0a-4c34-9e48-1b7ab378256b" active="true" effectiveTime="2017-04-03T10:47:14.948+0100" author="kke@snomed.org">
-				<attribute xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="680e1e63-0a79-4771-ada4-c53d3bfc46f8" active="true" effectiveTime="2017-04-03T10:47:14.948+0100" author="kke@snomed.org" conceptId="732947008"/><!--Has presentation strength denominator unit (attribute)-->
-				<range xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="d9c555d9-5e75-4566-8a09-4d9d3e9d3919" active="true" effectiveTime="2017-04-03T10:47:14.948+0100" author="kke@snomed.org" conceptId="258666001" inclusionType="DESCENDANT"/><!--Unit (qualifier value)-->
+	<constraints xsi:type="mrcm:AttributeConstraint" uuid="5923e139-01ac-4f1a-a29d-7f9305633ff7" active="true" effectiveTime="2018-02-28T10:53:38.525+0000" author="kke@snomed.org">
+		<domain xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="976ca6f7-d304-4cbe-9fee-598d8759ee99" active="true" effectiveTime="2018-02-28T10:53:38.525+0000" author="kke@snomed.org" conceptId="373873005" inclusionType="SELF_OR_DESCENDANT"/><!--Pharmaceutical / biologic product (product)-->
+		<predicate xsi:type="mrcm:CardinalityPredicate" uuid="96dc8f68-a2e5-4313-baef-7d83680db9a0" active="true" effectiveTime="2018-02-28T10:53:38.525+0000" author="kke@snomed.org" maxCardinality="-1">
+			<predicate xsi:type="mrcm:RelationshipPredicate" uuid="e4f0efed-0fb5-4cf3-bd4a-310879ab8706" active="true" effectiveTime="2018-02-28T10:53:38.525+0000" author="kke@snomed.org">
+				<attribute xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="14cd0b87-0bc1-4a63-8517-1db091a6d15a" active="true" effectiveTime="2018-02-28T10:53:38.525+0000" author="kke@snomed.org" conceptId="732947008"/><!--Has presentation strength denominator unit (attribute)-->
+				<range xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="b699ded0-1da6-4582-ac85-aabb444dfc7f" active="true" effectiveTime="2018-02-28T10:53:38.525+0000" author="kke@snomed.org" conceptId="732935002" inclusionType="DESCENDANT"/><!--< 732935002 |Unit of presentation (unit of presentation)|-->
 			</predicate>
 		</predicate>
 	</constraints>
