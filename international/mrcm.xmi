@@ -415,7 +415,6 @@
 			</predicate>
 		</predicate>
 	</constraints>
-	<!-- APDS-397 -->
 	<constraints xsi:type="mrcm:AttributeConstraint" uuid="a2dfe322-1184-4aa9-8841-b9247e8871e6" active="true" effectiveTime="2017-09-13T13:39:22.538+0100" author="kke@snomed.org">
 		<domain xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="755f1d18-4aa9-4871-9dd0-873cdf531001" active="true" effectiveTime="2017-09-13T13:39:22.538+0100" author="kke@snomed.org" conceptId="373873005" inclusionType="SELF_OR_DESCENDANT"/><!--Pharmaceutical / biologic product (product)-->
 		<predicate xsi:type="mrcm:CardinalityPredicate" uuid="6ba0687b-41e7-49d7-a6df-3dcc8efe3ef3" active="true" effectiveTime="2017-09-13T13:39:22.538+0100" author="kke@snomed.org" maxCardinality="-1">
@@ -425,17 +424,15 @@
 			</predicate>
 		</predicate>
 	</constraints>
-	<!-- APDS-398 -->
-	<constraints xsi:type="mrcm:AttributeConstraint" uuid="8b3e35b6-1451-4587-b7f9-2c04ccb820c3" active="true" effectiveTime="2017-09-13T13:47:47.802+0100" author="kke@snomed.org">
-		<domain xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="93c0528d-6445-4b4e-a1ec-776d3deaa6bd" active="true" effectiveTime="2017-09-13T13:47:47.802+0100" author="kke@snomed.org" conceptId="373873005" inclusionType="SELF_OR_DESCENDANT"/><!--Pharmaceutical / biologic product (product)-->
-		<predicate xsi:type="mrcm:CardinalityPredicate" uuid="de940bf2-dafc-4cec-95f7-ae9ed4a1b8d4" active="true" effectiveTime="2017-09-13T13:47:47.802+0100" author="kke@snomed.org" maxCardinality="-1">
-			<predicate xsi:type="mrcm:RelationshipPredicate" uuid="4d76c2b1-a5a7-496b-935e-d3cfb3becdfd" active="true" effectiveTime="2017-09-13T13:47:47.802+0100" author="kke@snomed.org">
-				<attribute xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="ca3319b3-960c-4eea-bb84-82782a196190" active="true" effectiveTime="2017-09-13T13:47:47.802+0100" author="kke@snomed.org" conceptId="733725009"/><!--Has concentration strength numerator unit-->
-				<range xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="e65eed7f-5713-4cf4-8967-b2ed86ed5d52" active="true" effectiveTime="2017-09-13T13:47:47.802+0100" author="kke@snomed.org" conceptId="258666001" inclusionType="DESCENDANT"/><!--Unit (qualifier value)-->
+	<constraints xsi:type="mrcm:AttributeConstraint" uuid="7f1494d4-e1c7-4f12-b0c5-89a2418a5fc5" active="true" effectiveTime="2018-03-21T15:52:35.440+0000" author="kke@snomed.org">
+		<domain xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="64ac8575-7e77-4aab-affc-e8af2bcb35f4" active="true" effectiveTime="2018-03-21T15:52:35.440+0000" author="kke@snomed.org" conceptId="373873005" inclusionType="SELF_OR_DESCENDANT"/><!--Pharmaceutical / biologic product (product)-->
+		<predicate xsi:type="mrcm:CardinalityPredicate" uuid="a40b6c20-be12-4471-bdb9-57fdfa5ac120" active="true" effectiveTime="2018-03-21T15:52:35.440+0000" author="kke@snomed.org" maxCardinality="-1">
+			<predicate xsi:type="mrcm:RelationshipPredicate" uuid="489596ae-819a-47f4-ba0a-405fad53f12c" active="true" effectiveTime="2018-03-21T15:52:35.440+0000" author="kke@snomed.org">
+				<attribute xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="0119211c-b4d5-4f81-a6bc-8a3c2b0d87f0" active="true" effectiveTime="2018-03-21T15:52:35.440+0000" author="kke@snomed.org" conceptId="733725009"/><!--Has concentration strength numerator unit-->
+				<range xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="0a26ef96-3593-4624-bf0f-a6b0313e5fae" active="true" effectiveTime="2018-03-21T15:52:35.440+0000" author="kke@snomed.org" conceptId="767524001" inclusionType="DESCENDANT"/><!--< 767524001 |Unit of measure (qualifier value)|-->
 			</predicate>
 		</predicate>
 	</constraints>
-	<!-- APDS-399 -->
 	<constraints xsi:type="mrcm:AttributeConstraint" uuid="d05a1bef-5c18-4ffd-8177-7876b3c2511d" active="true" effectiveTime="2017-09-13T13:49:19.439+0100" author="kke@snomed.org">
 		<domain xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="725c7f9c-1477-4d90-b192-106581394e6d" active="true" effectiveTime="2017-09-13T13:49:19.439+0100" author="kke@snomed.org" conceptId="373873005" inclusionType="SELF_OR_DESCENDANT"/><!--Pharmaceutical / biologic product (product)-->
 		<predicate xsi:type="mrcm:CardinalityPredicate" uuid="ec8406ab-c47a-4157-8556-3b27f2cd4198" active="true" effectiveTime="2017-09-13T13:49:19.439+0100" author="kke@snomed.org" maxCardinality="-1">
@@ -445,7 +442,6 @@
 			</predicate>
 		</predicate>
 	</constraints>
-	<!-- APDS-400 -->
 	<constraints xsi:type="mrcm:AttributeConstraint" uuid="6280557d-38f4-4cb8-a361-a7d4d7f34f2f" active="true" effectiveTime="2017-09-13T13:50:39.665+0100" author="kke@snomed.org">
 		<domain xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="677f350a-7f1e-4767-be8b-d05cf4c00ef6" active="true" effectiveTime="2017-09-13T13:50:39.665+0100" author="kke@snomed.org" conceptId="373873005" inclusionType="SELF_OR_DESCENDANT"/><!--Pharmaceutical / biologic product (product)-->
 		<predicate xsi:type="mrcm:CardinalityPredicate" uuid="ac0db0e4-befb-4b36-b7d0-5c126948b9cf" active="true" effectiveTime="2017-09-13T13:50:39.665+0100" author="kke@snomed.org" maxCardinality="-1">
