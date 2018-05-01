@@ -45,6 +45,15 @@
 			</predicate>
 		</predicate>
 	</constraints>
+	<constraints xsi:type="mrcm:AttributeConstraint" uuid="ef97fc0e-691f-4bde-9f72-f823906b3a93" active="true" effectiveTime="2018-05-01T10:19:03.053+0100" author="kke@snomed.org">
+		<domain xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="d10e4acd-2f19-47e7-886e-6d7e8928e470" active="true" effectiveTime="2018-05-01T10:19:03.053+0100" author="kke@snomed.org" conceptId="123037004" inclusionType="SELF_OR_DESCENDANT"/><!--<< 123037004|Body structure (body structure)|-->
+		<predicate xsi:type="mrcm:CardinalityPredicate" uuid="22f31981-f8af-4a41-82eb-a70643283703" active="true" effectiveTime="2018-05-01T10:19:03.053+0100" author="kke@snomed.org" maxCardinality="1" groupRule="ALL_GROUPS">
+			<predicate xsi:type="mrcm:RelationshipPredicate" uuid="0e92a8a6-8d00-4401-b7e5-1c50fd2c2af5" active="true" effectiveTime="2018-05-01T10:19:03.053+0100" author="kke@snomed.org">
+				<attribute xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="750c2475-22e6-487f-9f42-91e904e16e5e" active="true" effectiveTime="2018-05-01T10:19:03.053+0100" author="kke@snomed.org" conceptId="733931002"/><!--733931002 |Constitutional part of|-->
+				<range xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="530f9695-94cd-46bb-b36b-c5edea9ece24" active="true" effectiveTime="2018-05-01T10:19:03.053+0100" author="kke@snomed.org" conceptId="123037004" inclusionType="SELF_OR_DESCENDANT"/><!--<< 123037004|Body structure (body structure)|-->
+			</predicate>
+		</predicate>
+	</constraints>
 	<constraints xsi:type="mrcm:AttributeConstraint" uuid="3dcbd884-6bf5-4f31-8117-6e7d672dfa25" active="true" effectiveTime="2012-08-06T21:11:42.000+0000" author="obali@b2international.com">
 		<domain xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="93127575-93e0-420b-9bfe-52e171614814" active="true" effectiveTime="2012-08-06T20:26:15.000+0000" author="obali@b2international.com" conceptId="404684003" inclusionType="DESCENDANT"/>
 		<predicate xsi:type="mrcm:CardinalityPredicate" uuid="fbd9706f-e037-45dc-a201-2c6fd61a079c" active="true" effectiveTime="2012-08-06T20:26:35.000+0000" author="obali@b2international.com" maxCardinality="-1">
