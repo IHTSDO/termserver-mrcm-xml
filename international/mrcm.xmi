@@ -715,16 +715,17 @@
 			</predicate>
 		</predicate>
 	</constraints>
-	<constraints xsi:type="mrcm:AttributeConstraint" uuid="9e1a0145-f0ef-4cdf-aa4e-6409ab86676d" active="true" effectiveTime="2017-03-10T14:00:53.727+0000" author="kke@snomed.org">
-		<domain xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="5592b52b-a8a5-4111-92ff-7144e6207b9a" active="true" effectiveTime="2017-03-10T14:00:53.727+0000" author="kke@snomed.org" conceptId="404684003" inclusionType="DESCENDANT"/><!-- Clinical finding (finding) -->
-		<predicate xsi:type="mrcm:CardinalityPredicate" uuid="02653ad1-c47e-4e74-905f-16bf77e154f0" active="true" effectiveTime="2017-03-10T14:00:53.727+0000" author="kke@snomed.org" maxCardinality="-1">
-			<predicate xsi:type="mrcm:RelationshipPredicate" uuid="1387176d-7410-4b0c-b109-d4f55e7163c8" active="true" effectiveTime="2017-03-10T14:00:53.727+0000" author="kke@snomed.org">
-				<attribute xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="ed1ac292-dd69-4430-be10-5c80e53a1c1e" active="true" effectiveTime="2017-03-10T14:00:53.727+0000" author="kke@snomed.org" conceptId="370135005"/><!-- Pathological process -->
-				<range xsi:type="mrcm:CompositeConceptSetDefinition" uuid="60eccd96-614c-44fa-991e-1ca90f3df00a" active="true" effectiveTime="2017-03-10T14:00:53.727+0000" author="kke@snomed.org">
-					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="9e48418b-4944-4b14-827a-55b8da2accfa" active="true" effectiveTime="2017-03-10T14:00:53.727+0000" author="kke@snomed.org" conceptId="263680009"/><!-- Autoimmune -->
-					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="534a55f5-cd9c-4ee7-ba0b-d4cd624da7f9" active="true" effectiveTime="2017-03-10T14:00:53.727+0000" author="kke@snomed.org" conceptId="441862004" inclusionType="SELF_OR_DESCENDANT"/><!-- Infectious process -->
-					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="bfa62cdf-6ee3-4972-abf4-86589ca3dc02" active="true" effectiveTime="2017-03-10T14:00:53.727+0000" author="kke@snomed.org" conceptId="472963003" inclusionType="SELF_OR_DESCENDANT"/><!-- Hypersensitivity process -->
-					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="2aca30fd-1b35-45e3-9f41-9132f2066a9d" active="true" effectiveTime="2017-03-10T14:00:53.727+0000" author="kke@snomed.org" conceptId="308490002" inclusionType="SELF_OR_DESCENDANT"/><!-- Pathological developmental process -->
+	<constraints xsi:type="mrcm:AttributeConstraint" uuid="a4a0d3d2-8e22-4fb0-b123-93b0648408f7" active="true" effectiveTime="2018-09-13T09:56:25.061+0100" author="kke@snomed.org">
+		<domain xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="8d82fd1f-db53-4bf2-9e0c-9b4a1639dc55" active="true" effectiveTime="2018-09-13T09:56:25.061+0100" author="kke@snomed.org" conceptId="404684003" inclusionType="DESCENDANT"/><!-- Clinical finding (finding) -->
+		<predicate xsi:type="mrcm:CardinalityPredicate" uuid="3250115a-1fa7-48c9-a304-230098a3ed2c" active="true" effectiveTime="2018-09-13T09:56:25.061+0100" author="kke@snomed.org" maxCardinality="-1">
+			<predicate xsi:type="mrcm:RelationshipPredicate" uuid="9afdebbe-0c51-44ad-9baa-2ae9bd4ef354" active="true" effectiveTime="2018-09-13T09:56:25.061+0100" author="kke@snomed.org">
+				<attribute xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="cee01dcd-d482-40d6-a20e-405cb659a388" active="true" effectiveTime="2018-09-13T09:56:25.061+0100" author="kke@snomed.org" conceptId="370135005"/><!-- Pathological process -->
+				<range xsi:type="mrcm:CompositeConceptSetDefinition" uuid="433511b7-8e3b-41bd-a612-8d492de84066" active="true" effectiveTime="2018-09-13T09:56:25.061+0100" author="kke@snomed.org">
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="1598bd95-cbf1-4984-8bb9-e76baad10aae" active="true" effectiveTime="2018-09-13T09:56:25.061+0100" author="kke@snomed.org" conceptId="263680009"/><!-- Autoimmune -->
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="0bcc78e2-059a-4025-9733-804f972fa4bd" active="true" effectiveTime="2018-09-13T09:56:25.061+0100" author="kke@snomed.org" conceptId="769247005" inclusionType="SELF_OR_DESCENDANT"/><!-- 769247005 |Abnormal immune process (qualifier value)| -->
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="38f941c1-033b-4e33-82b7-d35b3c1072c6" active="true" effectiveTime="2018-09-13T09:56:25.061+0100" author="kke@snomed.org" conceptId="441862004" inclusionType="SELF_OR_DESCENDANT"/><!-- Infectious process -->
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="ec7750ac-b4de-4e9b-98a5-daab92eb6bd0" active="true" effectiveTime="2018-09-13T09:56:25.061+0100" author="kke@snomed.org" conceptId="472963003" inclusionType="SELF_OR_DESCENDANT"/><!-- Hypersensitivity process -->
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="e987b885-3f29-48cb-870c-3e09a3d6f608" active="true" effectiveTime="2018-09-13T09:56:25.061+0100" author="kke@snomed.org" conceptId="308490002" inclusionType="SELF_OR_DESCENDANT"/><!-- Pathological developmental process -->
 				</range>
 			</predicate>
 		</predicate>
