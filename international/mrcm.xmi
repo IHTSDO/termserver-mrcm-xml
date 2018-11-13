@@ -81,6 +81,15 @@
 			</predicate>
 		</predicate>
 	</constraints>
+	<constraints xsi:type="mrcm:AttributeConstraint" uuid="998d56a2-6713-4915-bfa1-b51ced3eb21d" active="true" effectiveTime="2018-11-13T13:44:42.179+0000" author="kke@snomed.org">
+		<domain xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="c0002d17-b465-481f-938c-905cc5aeac52" active="true" effectiveTime="2018-11-13T13:44:42.179+0000" author="kke@snomed.org" conceptId="123037004" inclusionType="SELF_OR_DESCENDANT"/><!--<< 123037004|Body structure (body structure)|-->
+		<predicate xsi:type="mrcm:CardinalityPredicate" uuid="8a689e0a-f7a6-46a3-a005-e7f1c8589bcb" active="true" effectiveTime="2018-11-13T13:44:42.179+0000" author="kke@snomed.org" maxCardinality="-1">
+			<predicate xsi:type="mrcm:RelationshipPredicate" uuid="43159b98-7df5-46d0-be18-4846d7db7085" active="true" effectiveTime="2018-11-13T13:44:42.179+0000" author="kke@snomed.org">
+				<attribute xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="4672027e-1111-49b0-81bc-9c3a44b1e2f3" active="true" effectiveTime="2018-11-13T13:44:42.179+0000" author="kke@snomed.org" conceptId="774081006"/><!--774081006	Proper part of-->
+				<range xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="97e7bd75-e65a-4fd5-aa46-26ed5dbb7d96" active="true" effectiveTime="2018-11-13T13:44:42.179+0000" author="kke@snomed.org" conceptId="123037004" inclusionType="SELF_OR_DESCENDANT"/><!--<< 123037004 |Body structure (body structure)|-->
+			</predicate>
+		</predicate>
+	</constraints>
 	<constraints xsi:type="mrcm:AttributeConstraint" uuid="3dcbd884-6bf5-4f31-8117-6e7d672dfa25" active="true" effectiveTime="2012-08-06T21:11:42.000+0000" author="obali@b2international.com">
 		<domain xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="93127575-93e0-420b-9bfe-52e171614814" active="true" effectiveTime="2012-08-06T20:26:15.000+0000" author="obali@b2international.com" conceptId="404684003" inclusionType="DESCENDANT"/>
 		<predicate xsi:type="mrcm:CardinalityPredicate" uuid="fbd9706f-e037-45dc-a201-2c6fd61a079c" active="true" effectiveTime="2012-08-06T20:26:35.000+0000" author="obali@b2international.com" maxCardinality="-1">
