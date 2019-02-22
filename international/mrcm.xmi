@@ -723,14 +723,15 @@
 			</predicate>
 		</predicate>
 	</constraints>
-	<constraints xsi:type="mrcm:AttributeConstraint" uuid="de052b89-9627-4d5a-8d70-0ab38edf7d07" active="true" effectiveTime="2018-03-14T16:25:51.631+0000" author="kke@snomed.org">
-		<domain xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="33dd159c-9079-4e6f-98d1-fbd9885949a2" active="true" effectiveTime="2018-03-14T16:25:51.631+0000" author="kke@snomed.org" conceptId="404684003" inclusionType="DESCENDANT"/><!-- Clinical finding (finding) -->
-		<predicate xsi:type="mrcm:CardinalityPredicate" uuid="91a6a134-4563-4201-8cca-6778b20a3ff1" active="true" effectiveTime="2018-03-14T16:25:51.631+0000" author="kke@snomed.org" maxCardinality="-1">
-			<predicate xsi:type="mrcm:RelationshipPredicate" uuid="c15427a0-c23e-40fd-89f3-3c35238e87ca" active="true" effectiveTime="2018-03-14T16:25:51.631+0000" author="kke@snomed.org">
-				<attribute xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="43126978-258d-4bc3-9049-55b2079c479f" active="true" effectiveTime="2018-03-14T16:25:51.631+0000" author="kke@snomed.org" conceptId="255234002"/><!-- After (attribute) -->
-				<range xsi:type="mrcm:CompositeConceptSetDefinition" uuid="7919efc3-5084-4dfa-af77-e55587865ded" active="true" effectiveTime="2018-03-14T16:25:51.631+0000" author="kke@snomed.org">
-					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="1318ed3c-0a39-4459-b99a-eaee509c403a" active="true" effectiveTime="2018-03-14T16:25:51.631+0000" author="kke@snomed.org" conceptId="404684003" inclusionType="SELF_OR_DESCENDANT"/><!-- Clinical finding (finding) -->
-					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="d443778e-5bfb-44a9-8cf6-7ec223daf285" active="true" effectiveTime="2018-03-14T16:25:51.631+0000" author="kke@snomed.org" conceptId="71388002" inclusionType="SELF_OR_DESCENDANT"/><!-- Procedure (procedure) -->
+	<constraints xsi:type="mrcm:AttributeConstraint" uuid="ed0bedb2-9bd3-4384-bded-582951ec02d8" active="true" effectiveTime="2019-02-22T09:35:15.833+0000" author="kke@snomed.org">
+		<domain xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="9a95ed44-1661-4e15-b436-901d60690b99" active="true" effectiveTime="2019-02-22T09:35:15.833+0000" author="kke@snomed.org" conceptId="404684003" inclusionType="DESCENDANT"/><!-- Clinical finding (finding) -->
+		<predicate xsi:type="mrcm:CardinalityPredicate" uuid="12d6fb5a-f1e5-4448-9987-e018ccd62660" active="true" effectiveTime="2019-02-22T09:35:15.833+0000" author="kke@snomed.org" maxCardinality="-1">
+			<predicate xsi:type="mrcm:RelationshipPredicate" uuid="b9a9497d-32a0-4c8d-bf4a-e8418a456e04" active="true" effectiveTime="2019-02-22T09:35:15.833+0000" author="kke@snomed.org">
+				<attribute xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="7168cfba-f379-4719-b448-67692f1ef0eb" active="true" effectiveTime="2019-02-22T09:35:15.833+0000" author="kke@snomed.org" conceptId="255234002"/><!-- After (attribute) -->
+				<range xsi:type="mrcm:CompositeConceptSetDefinition" uuid="dec513bf-8f37-4135-8151-5e2aacab5d1e" active="true" effectiveTime="2019-02-22T09:35:15.833+0000" author="kke@snomed.org">
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="11d024f9-3931-4c8c-ac09-0ad08c2e481e" active="true" effectiveTime="2019-02-22T09:35:15.833+0000" author="kke@snomed.org" conceptId="404684003" inclusionType="SELF_OR_DESCENDANT"/><!-- Clinical finding (finding) -->
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="aea6ce8d-d192-45a9-bf51-50a02f632a62" active="true" effectiveTime="2019-02-22T09:35:15.833+0000" author="kke@snomed.org" conceptId="71388002" inclusionType="SELF_OR_DESCENDANT"/><!-- Procedure (procedure) -->
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="91e536d2-f72a-447d-b4e9-f6243e4a8272" active="true" effectiveTime="2019-02-22T09:35:15.833+0000" author="kke@snomed.org" conceptId="272379006" inclusionType="SELF_OR_DESCENDANT"/><!--272379006|Event (event)|-->
 				</range>
 			</predicate>
 		</predicate>
