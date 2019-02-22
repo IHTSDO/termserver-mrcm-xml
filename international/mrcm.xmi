@@ -27,15 +27,6 @@
 			</predicate>
 		</predicate>
 	</constraints>
-	<constraints xsi:type="mrcm:AttributeConstraint" uuid="941a2b84-8025-4000-beb5-61bd435e5ad8" active="true" effectiveTime="2012-06-26T17:03:40.000+0000" author="obali@b2international.com">
-		<domain xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="39cfe28f-382d-473e-a179-1ddd03c6a8b7" active="true" effectiveTime="2012-06-26T17:03:46.000+0000" author="obali@b2international.com" conceptId="123037004" inclusionType="DESCENDANT"/><!--123037004|Body structure (body structure)|-->
-		<predicate xsi:type="mrcm:CardinalityPredicate" uuid="44cf3b63-e07e-4e0f-9967-5e0b7a24b664" active="true" effectiveTime="2012-06-26T17:04:00.000+0000" author="obali@b2international.com" maxCardinality="1" groupRule="ALL_GROUPS">
-			<predicate xsi:type="mrcm:RelationshipPredicate" uuid="0179d182-bced-4c4e-9005-479b1bf2e63e" active="true" effectiveTime="2012-06-26T17:04:00.000+0000" author="obali@b2international.com">
-				<attribute xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="871fc4fe-0980-4a96-8bb6-b04bb7c029d4" active="true" effectiveTime="2012-06-26T17:04:07.000+0000" author="obali@b2international.com" conceptId="123005000"/><!--Part of (attribute)-->
-				<range xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="c15cd630-6096-4e3e-ba17-79f9d3e92ede" active="true" effectiveTime="2012-06-26T17:04:19.000+0000" author="obali@b2international.com" conceptId="123037004" inclusionType="DESCENDANT"/><!--123037004|Body structure (body structure)|-->
-			</predicate>
-		</predicate>
-	</constraints>
 	<constraints xsi:type="mrcm:AttributeConstraint" uuid="344ebefb-4a6a-48bf-b876-f0a4376c803e" active="true" effectiveTime="2018-05-01T10:16:06.802+0100" author="kke@snomed.org">
 		<domain xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="98af4467-26b3-42b9-851e-ef9523197ac9" active="true" effectiveTime="2018-05-01T10:16:06.802+0100" author="kke@snomed.org" conceptId="123037004" inclusionType="SELF_OR_DESCENDANT"/><!--<< 123037004|Body structure (body structure)|-->
 		<predicate xsi:type="mrcm:CardinalityPredicate" uuid="1abcfb90-13e8-40fb-b410-b8099254d4c0" active="true" effectiveTime="2018-05-01T10:16:06.802+0100" author="kke@snomed.org" maxCardinality="1" groupRule="ALL_GROUPS">
