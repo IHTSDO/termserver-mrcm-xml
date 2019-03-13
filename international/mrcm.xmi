@@ -567,48 +567,48 @@
 			</predicate>
 		</predicate>
 	</constraints>
-	<constraints xsi:type="mrcm:AttributeConstraint" uuid="36bed7bd-eee4-4864-8127-b40dc20f65ca" active="true" effectiveTime="2018-11-13T11:40:25.319+0000" author="kke@snomed.org">
-		<domain xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="0cd89673-9d4c-43f3-bb05-47b117f50358" active="true" effectiveTime="2018-11-13T11:40:25.319+0000" author="kke@snomed.org" conceptId="373873005" inclusionType="SELF_OR_DESCENDANT"/><!--Pharmaceutical / biologic product (product)-->
-		<predicate xsi:type="mrcm:CardinalityPredicate" uuid="51017723-56fc-41cb-9d4b-0086626c1ab9" active="true" effectiveTime="2018-11-13T11:40:25.319+0000" author="kke@snomed.org" maxCardinality="-1">
-			<predicate xsi:type="mrcm:RelationshipPredicate" uuid="3388890e-a6ae-421b-88e4-5cf5260b9ffc" active="true" effectiveTime="2018-11-13T11:40:25.319+0000" author="kke@snomed.org">
-				<attribute xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="cf4c6fc7-efdf-49e7-bce6-c160ee598e18" active="true" effectiveTime="2018-11-13T11:40:25.319+0000" author="kke@snomed.org" conceptId="774160008"/><!--774160008	Contains clinical drug-->
-				<range xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="186a92ce-f489-4699-98b6-4f6ddc833b92" active="true" effectiveTime="2018-11-13T11:40:25.319+0000" author="kke@snomed.org" conceptId="763158003" inclusionType="SELF_OR_DESCENDANT"/><!--<< 763158003 |Medicinal product (product)|-->
+	<constraints xsi:type="mrcm:AttributeConstraint" uuid="5106a3ad-3edd-4af7-9ffa-19519a2f97ae" active="true" effectiveTime="2019-03-13T12:20:43.092+0000" author="kke@snomed.org">
+		<domain xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="6961cd29-f82d-4949-9504-02665f6bd0f0" active="true" effectiveTime="2019-03-13T12:20:43.092+0000" author="kke@snomed.org" conceptId="781405001" inclusionType="SELF_OR_DESCENDANT"/><!--781405001 |Medicinal product package (product)|-->
+		<predicate xsi:type="mrcm:CardinalityPredicate" uuid="ffedf1b7-1e9e-471a-a446-8cd44f99c05f" active="true" effectiveTime="2019-03-13T12:20:43.092+0000" author="kke@snomed.org" maxCardinality="-1">
+			<predicate xsi:type="mrcm:RelationshipPredicate" uuid="9bce7496-f410-4431-b703-c790d5aad1f7" active="true" effectiveTime="2019-03-13T12:20:43.092+0000" author="kke@snomed.org">
+				<attribute xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="8d52cbb8-1527-4c72-b013-dd65e54ea1e9" active="true" effectiveTime="2019-03-13T12:20:43.092+0000" author="kke@snomed.org" conceptId="774160008"/><!--774160008	Contains clinical drug-->
+				<range xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="44bc1371-a25b-47be-810e-8bc7e72ff736" active="true" effectiveTime="2019-03-13T12:20:43.092+0000" author="kke@snomed.org" conceptId="763158003" inclusionType="SELF_OR_DESCENDANT"/><!--<< 763158003 |Medicinal product (product)|-->
 			</predicate>
 		</predicate>
 	</constraints>
-	<constraints xsi:type="mrcm:AttributeConstraint" uuid="345ea3a5-9f96-4800-99f3-22487e56aa1a" active="true" effectiveTime="2018-11-13T11:44:03.293+0000" author="kke@snomed.org">
-		<domain xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="dbd22b45-faf5-44e0-9998-9309b282c10d" active="true" effectiveTime="2018-11-13T11:44:03.293+0000" author="kke@snomed.org" conceptId="373873005" inclusionType="SELF_OR_DESCENDANT"/><!--Pharmaceutical / biologic product (product)-->
-		<predicate xsi:type="mrcm:CardinalityPredicate" uuid="10c58a41-a92f-42de-94d6-412171f24745" active="true" effectiveTime="2018-11-13T11:44:03.293+0000" author="kke@snomed.org" maxCardinality="-1">
-			<predicate xsi:type="mrcm:RelationshipPredicate" uuid="92efbfa1-db0c-4a7b-822b-8b0a07977f8f" active="true" effectiveTime="2018-11-13T11:44:03.293+0000" author="kke@snomed.org">
-				<attribute xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="e8ef1898-52bf-4941-af91-549a5894529c" active="true" effectiveTime="2018-11-13T11:44:03.293+0000" author="kke@snomed.org" conceptId="774158006"/><!--774158006	Has product name-->
-				<range xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="8e01d38c-10b8-4107-8236-42abf1cee581" active="true" effectiveTime="2018-11-13T11:44:03.293+0000" author="kke@snomed.org" conceptId="774167006" inclusionType="SELF_OR_DESCENDANT"/><!--<< 774167006 | Product name (product name)|-->
+	<constraints xsi:type="mrcm:AttributeConstraint" uuid="9352e686-b7c8-418a-8e58-9813fd3fe546" active="true" effectiveTime="2019-03-13T12:19:46.646+0000" author="kke@snomed.org">
+		<domain xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="f45bd977-c8ec-4205-8422-66cd73316798" active="true" effectiveTime="2019-03-13T12:19:46.646+0000" author="kke@snomed.org" conceptId="781405001" inclusionType="SELF_OR_DESCENDANT"/><!--781405001 |Medicinal product package (product)|-->
+		<predicate xsi:type="mrcm:CardinalityPredicate" uuid="de599e56-1b82-41cd-97bc-654eb81a8576" active="true" effectiveTime="2019-03-13T12:19:46.646+0000" author="kke@snomed.org" maxCardinality="-1">
+			<predicate xsi:type="mrcm:RelationshipPredicate" uuid="df670781-e347-4fcc-a278-9cf82b188400" active="true" effectiveTime="2019-03-13T12:19:46.646+0000" author="kke@snomed.org">
+				<attribute xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="2a7739aa-5824-41fd-9c7e-b60842856878" active="true" effectiveTime="2019-03-13T12:19:46.646+0000" author="kke@snomed.org" conceptId="774158006"/><!--774158006	Has product name-->
+				<range xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="c15f6245-fb9e-4e85-b0c8-e47770945133" active="true" effectiveTime="2019-03-13T12:19:46.646+0000" author="kke@snomed.org" conceptId="774167006" inclusionType="SELF_OR_DESCENDANT"/><!--<< 774167006 | Product name (product name)|-->
 			</predicate>
 		</predicate>
 	</constraints>
-	<constraints xsi:type="mrcm:AttributeConstraint" uuid="3b416102-3125-4802-a358-7693bfc51698" active="true" effectiveTime="2018-11-13T11:49:23.500+0000" author="kke@snomed.org">
-		<domain xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="5b414f89-bfdb-4340-bff0-afe5d62beb1b" active="true" effectiveTime="2018-11-13T11:49:23.500+0000" author="kke@snomed.org" conceptId="373873005" inclusionType="SELF_OR_DESCENDANT"/><!--Pharmaceutical / biologic product (product)-->
-		<predicate xsi:type="mrcm:CardinalityPredicate" uuid="5f3e0f4a-af1a-4cd7-b557-f3f8b240c0d6" active="true" effectiveTime="2018-11-13T11:49:23.500+0000" author="kke@snomed.org" maxCardinality="-1">
-			<predicate xsi:type="mrcm:RelationshipPredicate" uuid="0f350115-e695-4b80-92b5-37d923c72a86" active="true" effectiveTime="2018-11-13T11:49:23.500+0000" author="kke@snomed.org">
-				<attribute xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="59477800-b7ad-4dd2-9831-179847b042cb" active="true" effectiveTime="2018-11-13T11:49:23.500+0000" author="kke@snomed.org" conceptId="774161007"/><!--774161007	Has pack size-->
-				<range xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="18ce0378-47cf-4696-85cd-6ae88268d2de" active="true" effectiveTime="2018-11-13T11:49:23.500+0000" author="kke@snomed.org" conceptId="260299005" inclusionType="DESCENDANT"/><!--< 260299005 |Number (qualifier value)|-->
+	<constraints xsi:type="mrcm:AttributeConstraint" uuid="dd9fd3df-2ad0-4016-b7e6-bbb4756c82e4" active="true" effectiveTime="2019-03-13T12:15:31.016+0000" author="kke@snomed.org">
+		<domain xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="4288bfbc-a6b0-4d89-8ced-1dfc613f103e" active="true" effectiveTime="2019-03-13T12:15:31.016+0000" author="kke@snomed.org" conceptId="781405001" inclusionType="SELF_OR_DESCENDANT"/><!--781405001 |Medicinal product package (product)|-->
+		<predicate xsi:type="mrcm:CardinalityPredicate" uuid="beccb50c-359b-4fc1-8ec0-72cd06a6a235" active="true" effectiveTime="2019-03-13T12:15:31.016+0000" author="kke@snomed.org" maxCardinality="-1">
+			<predicate xsi:type="mrcm:RelationshipPredicate" uuid="71f11564-f165-49c9-a455-005309099868" active="true" effectiveTime="2019-03-13T12:15:31.016+0000" author="kke@snomed.org">
+				<attribute xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="7c2ea55c-de39-4c3f-b143-a5495ed0040c" active="true" effectiveTime="2019-03-13T12:15:31.016+0000" author="kke@snomed.org" conceptId="774161007"/><!--774161007	Has pack size-->
+				<range xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="ee0875e6-a1cc-4507-9fda-1096695e0703" active="true" effectiveTime="2019-03-13T12:15:31.016+0000" author="kke@snomed.org" conceptId="260299005" inclusionType="DESCENDANT"/><!--< 260299005 |Number (qualifier value)|-->
 			</predicate>
 		</predicate>
 	</constraints>
-	<constraints xsi:type="mrcm:AttributeConstraint" uuid="0814b598-39f3-4213-aab6-140a17845826" active="true" effectiveTime="2018-11-13T11:53:23.076+0000" author="kke@snomed.org">
-		<domain xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="6eb175e0-885a-4262-9ff3-f01287109637" active="true" effectiveTime="2018-11-13T11:53:23.076+0000" author="kke@snomed.org" conceptId="373873005" inclusionType="SELF_OR_DESCENDANT"/><!--Pharmaceutical / biologic product (product)-->
-		<predicate xsi:type="mrcm:CardinalityPredicate" uuid="4e70fb05-8024-488d-ba70-91044108f73f" active="true" effectiveTime="2018-11-13T11:53:23.076+0000" author="kke@snomed.org" maxCardinality="-1">
-			<predicate xsi:type="mrcm:RelationshipPredicate" uuid="bd5a6164-ce39-4228-b9c1-fe0321e93d2f" active="true" effectiveTime="2018-11-13T11:53:23.076+0000" author="kke@snomed.org">
-				<attribute xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="235f5fe9-bc90-4c3f-a647-9b4456364600" active="true" effectiveTime="2018-11-13T11:53:23.076+0000" author="kke@snomed.org" conceptId="774163005"/><!--774163005	Has pack size unit-->
-				<range xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="db9fe7f2-638d-4a77-8019-edfcab662fc3" active="true" effectiveTime="2018-11-13T11:53:23.076+0000" author="kke@snomed.org" conceptId="767524001" inclusionType="SELF_OR_DESCENDANT"/><!--<< 767524001 |Unit of measure (qualifier value)|-->
+	<constraints xsi:type="mrcm:AttributeConstraint" uuid="00589918-e94e-4b77-bb27-14b4fd594641" active="true" effectiveTime="2019-03-13T12:15:04.490+0000" author="kke@snomed.org">
+		<domain xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="aeef3b13-0367-4960-b98d-1642cfe9a993" active="true" effectiveTime="2019-03-13T12:15:04.490+0000" author="kke@snomed.org" conceptId="781405001" inclusionType="SELF_OR_DESCENDANT"/><!--781405001 |Medicinal product package (product)|-->
+		<predicate xsi:type="mrcm:CardinalityPredicate" uuid="6f55fe1e-cae9-4fcd-ab24-9ac950dcec55" active="true" effectiveTime="2019-03-13T12:15:04.490+0000" author="kke@snomed.org" maxCardinality="-1">
+			<predicate xsi:type="mrcm:RelationshipPredicate" uuid="a5b28e3f-5700-46ea-a249-c5731bb2da0f" active="true" effectiveTime="2019-03-13T12:15:04.490+0000" author="kke@snomed.org">
+				<attribute xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="4d9a242b-b70d-491f-96f9-fef25e6a1461" active="true" effectiveTime="2019-03-13T12:15:04.490+0000" author="kke@snomed.org" conceptId="774163005"/><!--774163005	Has pack size unit-->
+				<range xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="e9c6bd85-c5ba-4fd9-a6a7-229fb40c328e" active="true" effectiveTime="2019-03-13T12:15:04.490+0000" author="kke@snomed.org" conceptId="767524001" inclusionType="SELF_OR_DESCENDANT"/><!--<< 767524001 |Unit of measure (qualifier value)|-->
 			</predicate>
 		</predicate>
 	</constraints>
-	<constraints xsi:type="mrcm:AttributeConstraint" uuid="c46ed311-459c-48a3-9e20-3face6a36843" active="true" effectiveTime="2018-11-13T11:54:47.762+0000" author="kke@snomed.org">
-		<domain xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="ab93af12-b81b-4814-903d-6fb470ef6e6d" active="true" effectiveTime="2018-11-13T11:54:47.762+0000" author="kke@snomed.org" conceptId="373873005" inclusionType="SELF_OR_DESCENDANT"/><!--Pharmaceutical / biologic product (product)-->
-		<predicate xsi:type="mrcm:CardinalityPredicate" uuid="9bf9abe3-5614-4abd-a729-1f2193866560" active="true" effectiveTime="2018-11-13T11:54:47.762+0000" author="kke@snomed.org" maxCardinality="-1">
-			<predicate xsi:type="mrcm:RelationshipPredicate" uuid="f2696b75-8d28-4b93-819a-73af6be6cf63" active="true" effectiveTime="2018-11-13T11:54:47.762+0000" author="kke@snomed.org">
-				<attribute xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="82e7414a-d786-492b-a37b-d4cf058bf51e" active="true" effectiveTime="2018-11-13T11:54:47.762+0000" author="kke@snomed.org" conceptId="774159003"/><!--774159003	Has supplier-->
-				<range xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="a1afab4c-cb66-4d58-86ab-0211b545c148" active="true" effectiveTime="2018-11-13T11:54:47.762+0000" author="kke@snomed.org" conceptId="774164004" inclusionType="SELF_OR_DESCENDANT"/><!--<< 774164004 | Supplier (supplier)|-->
+	<constraints xsi:type="mrcm:AttributeConstraint" uuid="914218db-2597-4c09-9613-ecf9751481d3" active="true" effectiveTime="2019-03-13T12:23:13.445+0000" author="kke@snomed.org">
+		<domain xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="79e940b6-eabf-4cac-81a9-653526117fe8" active="true" effectiveTime="2019-03-13T12:23:13.445+0000" author="kke@snomed.org" conceptId="781405001" inclusionType="SELF_OR_DESCENDANT"/><!--781405001 |Medicinal product package (product)|-->
+		<predicate xsi:type="mrcm:CardinalityPredicate" uuid="ef9e79da-fb12-4d35-b410-c35ce2f1f163" active="true" effectiveTime="2019-03-13T12:23:13.445+0000" author="kke@snomed.org" maxCardinality="-1">
+			<predicate xsi:type="mrcm:RelationshipPredicate" uuid="93117536-df7a-4b03-ae4b-302734ab3ec9" active="true" effectiveTime="2019-03-13T12:23:13.445+0000" author="kke@snomed.org">
+				<attribute xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="d59541dc-b287-4973-bd7d-18c7a0e3bf5c" active="true" effectiveTime="2019-03-13T12:23:13.445+0000" author="kke@snomed.org" conceptId="774159003"/><!--774159003	Has supplier-->
+				<range xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="8d421940-5ed7-4a9e-af81-99cf39e275c0" active="true" effectiveTime="2019-03-13T12:23:13.445+0000" author="kke@snomed.org" conceptId="774164004" inclusionType="SELF_OR_DESCENDANT"/><!--<< 774164004 | Supplier (supplier)|-->
 			</predicate>
 		</predicate>
 	</constraints>
