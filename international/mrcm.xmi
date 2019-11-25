@@ -603,12 +603,12 @@
 			</predicate>
 		</predicate>
 	</constraints>
-	<constraints xsi:type="mrcm:AttributeConstraint" uuid="914218db-2597-4c09-9613-ecf9751481d3" active="true" effectiveTime="2019-03-13T12:23:13.445+0000" author="kke@snomed.org">
-		<domain xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="79e940b6-eabf-4cac-81a9-653526117fe8" active="true" effectiveTime="2019-03-13T12:23:13.445+0000" author="kke@snomed.org" conceptId="781405001" inclusionType="SELF_OR_DESCENDANT"/><!--781405001 |Medicinal product package (product)|-->
-		<predicate xsi:type="mrcm:CardinalityPredicate" uuid="ef9e79da-fb12-4d35-b410-c35ce2f1f163" active="true" effectiveTime="2019-03-13T12:23:13.445+0000" author="kke@snomed.org" maxCardinality="-1">
-			<predicate xsi:type="mrcm:RelationshipPredicate" uuid="93117536-df7a-4b03-ae4b-302734ab3ec9" active="true" effectiveTime="2019-03-13T12:23:13.445+0000" author="kke@snomed.org">
-				<attribute xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="d59541dc-b287-4973-bd7d-18c7a0e3bf5c" active="true" effectiveTime="2019-03-13T12:23:13.445+0000" author="kke@snomed.org" conceptId="774159003"/><!--774159003	Has supplier-->
-				<range xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="8d421940-5ed7-4a9e-af81-99cf39e275c0" active="true" effectiveTime="2019-03-13T12:23:13.445+0000" author="kke@snomed.org" conceptId="774164004" inclusionType="SELF_OR_DESCENDANT"/><!--<< 774164004 | Supplier (supplier)|-->
+	<constraints xsi:type="mrcm:AttributeConstraint" uuid="ab0c58d3-7e15-4857-9561-9083623a6405" active="true" effectiveTime="2019-11-25T12:13:10.799+0000" author="kke@snomed.org">
+		<domain xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="85d4ab99-3c73-4033-966f-d80bb5b33733" active="true" effectiveTime="2019-11-25T12:13:10.799+0000" author="kke@snomed.org" conceptId="373873005" inclusionType="SELF_OR_DESCENDANT"/><!--373873005 |Pharmaceutical / biologic product (product)|-->
+		<predicate xsi:type="mrcm:CardinalityPredicate" uuid="f77fab9c-b5d1-41f6-b855-f88a2579cd71" active="true" effectiveTime="2019-11-25T12:13:10.799+0000" author="kke@snomed.org" maxCardinality="-1">
+			<predicate xsi:type="mrcm:RelationshipPredicate" uuid="02a471b9-b1e7-431a-9213-c94e7b02d683" active="true" effectiveTime="2019-11-25T12:13:10.799+0000" author="kke@snomed.org">
+				<attribute xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="9b52c38f-807e-44ef-a104-d798f775ccf9" active="true" effectiveTime="2019-11-25T12:13:10.799+0000" author="kke@snomed.org" conceptId="774159003"/><!--774159003	Has supplier-->
+				<range xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="9509c0de-d8ec-44a0-8e96-d4ca96d0253a" active="true" effectiveTime="2019-11-25T12:13:10.799+0000" author="kke@snomed.org" conceptId="774164004" inclusionType="SELF_OR_DESCENDANT"/><!--<< 774164004 | Supplier (supplier)|-->
 			</predicate>
 		</predicate>
 	</constraints>
