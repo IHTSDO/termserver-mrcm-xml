@@ -576,12 +576,12 @@
 			</predicate>
 		</predicate>
 	</constraints>
-	<constraints xsi:type="mrcm:AttributeConstraint" uuid="9352e686-b7c8-418a-8e58-9813fd3fe546" active="true" effectiveTime="2019-03-13T12:19:46.646+0000" author="kke@snomed.org">
-		<domain xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="f45bd977-c8ec-4205-8422-66cd73316798" active="true" effectiveTime="2019-03-13T12:19:46.646+0000" author="kke@snomed.org" conceptId="781405001" inclusionType="SELF_OR_DESCENDANT"/><!--781405001 |Medicinal product package (product)|-->
-		<predicate xsi:type="mrcm:CardinalityPredicate" uuid="de599e56-1b82-41cd-97bc-654eb81a8576" active="true" effectiveTime="2019-03-13T12:19:46.646+0000" author="kke@snomed.org" maxCardinality="-1">
-			<predicate xsi:type="mrcm:RelationshipPredicate" uuid="df670781-e347-4fcc-a278-9cf82b188400" active="true" effectiveTime="2019-03-13T12:19:46.646+0000" author="kke@snomed.org">
-				<attribute xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="2a7739aa-5824-41fd-9c7e-b60842856878" active="true" effectiveTime="2019-03-13T12:19:46.646+0000" author="kke@snomed.org" conceptId="774158006"/><!--774158006	Has product name-->
-				<range xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="c15f6245-fb9e-4e85-b0c8-e47770945133" active="true" effectiveTime="2019-03-13T12:19:46.646+0000" author="kke@snomed.org" conceptId="774167006" inclusionType="SELF_OR_DESCENDANT"/><!--<< 774167006 | Product name (product name)|-->
+	<constraints xsi:type="mrcm:AttributeConstraint" uuid="2b5f9070-942f-4783-86f0-20177204b9e5" active="true" effectiveTime="2019-11-25T12:11:27.161+0000" author="kke@snomed.org">
+		<domain xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="6ed01fa7-ff04-4215-b057-4cd68bee5b81" active="true" effectiveTime="2019-11-25T12:11:27.161+0000" author="kke@snomed.org" conceptId="373873005" inclusionType="SELF_OR_DESCENDANT"/><!--373873005 |Pharmaceutical / biologic product (product)|-->
+		<predicate xsi:type="mrcm:CardinalityPredicate" uuid="84fee039-e78b-4c8b-b2c4-4a9797ef29ed" active="true" effectiveTime="2019-11-25T12:11:27.161+0000" author="kke@snomed.org" maxCardinality="-1">
+			<predicate xsi:type="mrcm:RelationshipPredicate" uuid="50f8f9ab-e310-4551-9169-67ddbd570d69" active="true" effectiveTime="2019-11-25T12:11:27.161+0000" author="kke@snomed.org">
+				<attribute xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="2d5cce28-d38b-4859-a1df-797122503dd0" active="true" effectiveTime="2019-11-25T12:11:27.161+0000" author="kke@snomed.org" conceptId="774158006"/><!--774158006	Has product name-->
+				<range xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="5a1b9a9d-f5c0-46f8-835e-9b32c7873394" active="true" effectiveTime="2019-11-25T12:11:27.161+0000" author="kke@snomed.org" conceptId="774167006" inclusionType="SELF_OR_DESCENDANT"/><!--<< 774167006 | Product name (product name)|-->
 			</predicate>
 		</predicate>
 	</constraints>
