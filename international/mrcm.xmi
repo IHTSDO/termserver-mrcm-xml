@@ -798,16 +798,17 @@
 			</predicate>
 		</predicate>
 	</constraints>
-	<constraints xsi:type="mrcm:AttributeConstraint" uuid="60096d3d-092d-4508-a1d5-d9e5fbad7c8e" active="true" effectiveTime="2018-02-01T15:31:42.643+0000" author="kke@snomed.org">
-		<domain xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="8e4203a7-e53a-48a9-b4cd-943975c787c7" active="true" effectiveTime="2018-02-01T15:31:42.643+0000" author="kke@snomed.org" conceptId="404684003" inclusionType="DESCENDANT"/><!-- Clinical finding (finding) -->
-		<predicate xsi:type="mrcm:CardinalityPredicate" uuid="14d56535-58c1-4723-ad2b-d04bab7dad8e" active="true" effectiveTime="2018-02-01T15:31:42.643+0000" author="kke@snomed.org" maxCardinality="-1">
-			<predicate xsi:type="mrcm:RelationshipPredicate" uuid="39beb0b7-efe7-40cb-9fd9-06d71acc4a24" active="true" effectiveTime="2018-02-01T15:31:42.643+0000" author="kke@snomed.org">
-				<attribute xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="1c085119-d324-4b82-bb19-7abf3a4aa6e7" active="true" effectiveTime="2018-02-01T15:31:42.643+0000" author="kke@snomed.org" conceptId="246075003"/><!-- Causative agent (attribute) -->
-				<range xsi:type="mrcm:CompositeConceptSetDefinition" uuid="0c2c78f0-a5a2-41e9-a9ff-b0fcea3d8e7a" active="true" effectiveTime="2018-02-01T15:31:42.643+0000" author="kke@snomed.org">
-					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="6b011209-3feb-418c-be40-9b5fbe8ca417" active="true" effectiveTime="2018-02-01T15:31:42.643+0000" author="kke@snomed.org" conceptId="410607006" inclusionType="SELF_OR_DESCENDANT"/><!--Organism (organism)-->
-					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="70de5c9d-785b-4991-a123-4b7788952b6b" active="true" effectiveTime="2018-02-01T15:31:42.643+0000" author="kke@snomed.org" conceptId="105590001" inclusionType="SELF_OR_DESCENDANT"/><!--Substance (substance)-->
-					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="623233f0-1129-4e22-8c89-6e7f42ae3b1d" active="true" effectiveTime="2018-02-01T15:31:42.643+0000" author="kke@snomed.org" conceptId="260787004" inclusionType="SELF_OR_DESCENDANT"/><!--Physical object (physical object)-->
-					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="b5dad6fa-dfd8-4a49-a61c-8daa60108388" active="true" effectiveTime="2018-02-01T15:31:42.643+0000" author="kke@snomed.org" conceptId="78621006" inclusionType="SELF_OR_DESCENDANT"/><!--Physical force (physical force)-->
+	<constraints xsi:type="mrcm:AttributeConstraint" uuid="30d38a76-1221-4f0d-8ad2-ba44aeba783d" active="true" effectiveTime="2019-12-16T20:04:53.776+0000" author="kke@snomed.org">
+		<domain xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="2300b7fc-78a2-4641-a86b-0eb00dab1325" active="true" effectiveTime="2019-12-16T20:04:53.776+0000" author="kke@snomed.org" conceptId="404684003" inclusionType="DESCENDANT"/><!-- Clinical finding (finding) -->
+		<predicate xsi:type="mrcm:CardinalityPredicate" uuid="2d607773-4ae8-4d52-bb4c-cd4f60611004" active="true" effectiveTime="2019-12-16T20:04:53.776+0000" author="kke@snomed.org" maxCardinality="-1">
+			<predicate xsi:type="mrcm:RelationshipPredicate" uuid="3f1d0ae6-5679-4852-a439-1bb463926579" active="true" effectiveTime="2019-12-16T20:04:53.776+0000" author="kke@snomed.org">
+				<attribute xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="116466dc-bf90-4f09-b946-94fca506e5a1" active="true" effectiveTime="2019-12-16T20:04:53.776+0000" author="kke@snomed.org" conceptId="246075003"/><!-- Causative agent (attribute) -->
+				<range xsi:type="mrcm:CompositeConceptSetDefinition" uuid="d9817498-7d7b-4650-92c3-87b806ced8bf" active="true" effectiveTime="2019-12-16T20:04:53.776+0000" author="kke@snomed.org">
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="79d42eb2-4b46-46aa-bb0a-6f82346f17ff" active="true" effectiveTime="2019-12-16T20:04:53.776+0000" author="kke@snomed.org" conceptId="373873005" inclusionType="SELF_OR_DESCENDANT"/><!--<< 373873005 |Pharmaceutical / biologic product (product)|-->
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="0cdffa46-bf3c-4ab6-aa59-8280daae50e2" active="true" effectiveTime="2019-12-16T20:04:53.776+0000" author="kke@snomed.org" conceptId="410607006" inclusionType="SELF_OR_DESCENDANT"/><!--Organism (organism)-->
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="d4a0a4fb-c797-4b93-a1f7-3d90388052cb" active="true" effectiveTime="2019-12-16T20:04:53.776+0000" author="kke@snomed.org" conceptId="105590001" inclusionType="SELF_OR_DESCENDANT"/><!--Substance (substance)-->
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="8c334730-8675-49b6-8559-067ac7fb60dd" active="true" effectiveTime="2019-12-16T20:04:53.776+0000" author="kke@snomed.org" conceptId="260787004" inclusionType="SELF_OR_DESCENDANT"/><!--Physical object (physical object)-->
+					<children xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="56fdd8ac-87c6-4dd4-a522-84b6b4f1ae3e" active="true" effectiveTime="2019-12-16T20:04:53.776+0000" author="kke@snomed.org" conceptId="78621006" inclusionType="SELF_OR_DESCENDANT"/><!--Physical force (physical force)-->
 				</range>
 			</predicate>
 		</predicate>
