@@ -332,15 +332,6 @@
 			</predicate>
 		</predicate>
 	</constraints>
-	<constraints xsi:type="mrcm:AttributeConstraint" uuid="8ee60e09-27a3-438b-9060-8feacd146f93" active="true" effectiveTime="2012-08-08T22:13:42.000+0000" author="obali@b2international.com">
-		<domain xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="53438e77-ba72-49c5-abe9-f26c1e331c8a" active="true" effectiveTime="2012-08-08T22:13:53.000+0000" author="obali@b2international.com" conceptId="260787004" inclusionType="DESCENDANT"/><!-- <260787004 Physical object (physical object) -->
-		<predicate xsi:type="mrcm:CardinalityPredicate" uuid="4c20aaa0-212c-49b2-aecc-b294d1d385b0" active="true" effectiveTime="2012-08-08T22:17:16.000+0000" author="obali@b2international.com" maxCardinality="-1">
-			<predicate xsi:type="mrcm:RelationshipPredicate" uuid="fbefe0c4-18f6-40f0-940a-977747289980" active="true" effectiveTime="2012-08-08T22:17:16.000+0000" author="obali@b2international.com">
-				<attribute xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="15f921f3-3f0e-42d3-b0c0-f46830a992c8" active="true" effectiveTime="2012-08-08T22:17:30.000+0000" author="obali@b2international.com" conceptId="127489000"/><!-- 127489000 | Has active ingredient (attribute) | -->
-				<range xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="c4b08619-c848-4371-b85b-b32bcd642edf" active="true" effectiveTime="2012-08-08T22:17:50.000+0000" author="obali@b2international.com" conceptId="105590001" inclusionType="SELF_OR_DESCENDANT"/><!-- 105590001 | Substance (substance) | -->
-			</predicate>
-		</predicate>
-	</constraints>
 	<constraints xsi:type="mrcm:AttributeConstraint" uuid="0d0ee4ea-360a-4b02-a487-00eaab1e5861" active="true" effectiveTime="2020-01-17T11:03:56.519+0000" author="kke@snomed.org">
 		<domain xsi:type="mrcm:HierarchyConceptSetDefinition" uuid="e44f7f2b-0266-4e5f-bc76-fd0b5d69ddeb" active="true" effectiveTime="2020-01-17T11:03:56.519+0000" author="kke@snomed.org" conceptId="260787004" inclusionType="SELF_OR_DESCENDANT"/><!-- <<260787004 Physical object (physical object) -->
 		<predicate xsi:type="mrcm:CardinalityPredicate" uuid="ea7aa377-a129-42dd-942d-cd8e89e20952" active="true" effectiveTime="2020-01-17T11:03:56.519+0000" author="kke@snomed.org" maxCardinality="-1">
